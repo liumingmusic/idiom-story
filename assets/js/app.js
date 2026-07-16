@@ -319,7 +319,7 @@
       if (!items.length) continue;
       html += `<section class="hb-group" id="grp-${esc(c.name)}">
         <h3 class="hb-group-title"><span class="g-emoji">${catEmoji(c.name)}</span>${esc(c.name)}<span class="g-count">${items.length} 个</span></h3>
-        <div class="results-grid">${items.map(cardHTML).join("")}</div></section>`;
+        <div class="results-grid">${items.map(x => cardHTML(x)).join("")}</div></section>`;
     }
     if (!html) root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个主题或关键词试试～</div>`;
     else root.innerHTML = html;
@@ -328,7 +328,7 @@
   // -------------------------- 视图：收藏 / 我的学习 / 历史 --------------------------
   function gridHTML(list, emptyIco, emptyText) {
     if (!list.length) return `<div class="empty-hint"><span class="eh-ico">${emptyIco}</span>${emptyText}</div>`;
-    return `<div class="results-grid">${list.map(cardHTML).join("")}</div>`;
+    return `<div class="results-grid">${list.map(x => cardHTML(x)).join("")}</div>`;
   }
   function renderFavorites() {
     const list = state.all.filter(x => store.fav.has(x.id));
