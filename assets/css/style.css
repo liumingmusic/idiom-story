@@ -250,8 +250,9 @@ a { color: var(--vermilion-2); }
 .site-footer .muted { font-size: 12px; opacity: .85; }
 
 /* ------------------------------ 弹层 ------------------------------ */
-.modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 18px; }
-/* 关键：hidden 属性必须能真正隐藏，否则 display:grid 会盖过浏览器默认的 [hidden] 规则 */
+.modal { position: fixed; inset: 0; z-index: 50; display: none; padding: 18px; }
+.modal.is-open { display: grid; place-items: center; }
+/* 兼容：若仍带 hidden 属性也强制隐藏 */
 .modal[hidden] { display: none; }
 .modal-backdrop { position: absolute; inset: 0; background: rgba(43,38,34,.5); backdrop-filter: blur(2px); }
 .modal-body {
