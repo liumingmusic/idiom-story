@@ -348,11 +348,11 @@ a { color: var(--vermilion-2); }
     background: rgba(255,253,247,.96); backdrop-filter: blur(10px);
     border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(80,60,30,.08);
   }
-  .tabitem { border: 0; background: transparent; cursor: pointer;
+  .tabitem { border: 0; background: transparent; cursor: pointer; padding: 0; min-width: 0;
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
     color: var(--ink-soft); font-family: var(--sans); -webkit-tap-highlight-color: transparent; }
-  .tabitem .ti-ico { font-size: 20px; line-height: 1; }
-  .tabitem .ti-lab { font-size: 11px; }
+  .tabitem .ti-ico { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
+  .tabitem .ti-lab { font-size: 10px; white-space: nowrap; }
   .tabitem.is-active { color: var(--vermilion-2); }
   .tabitem.is-active .ti-ico { transform: translateY(-1px); }
 
