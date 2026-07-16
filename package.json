@@ -1,0 +1,14 @@
+{
+  "name": "idiom-story",
+  "version": "1.0.0",
+  "description": "成语故事 —— 每天一个成语，给孩子的传统文化启蒙。纯静态、零构建、完全离线。",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "build:data": "node scripts/build-dataset.js",
+    "build:premium": "node scripts/build-dataset.js --premium",
+    "check": "node --check assets/js/app.js && node --check scripts/build-dataset.js && node --check scripts/premium-idioms.js",
+    "serve": "node -e \"const h=require('http'),f=require('fs'),p=require('path');h.createServer((q,s)=>{let u=decodeURIComponent(q.url.split('?')[0]);if(u==='/')u='/index.html';const fp=p.join(process.cwd(),u);f.readFile(fp,(e,d)=>{if(e){s.writeHead(404);return s.end('404')}const t={'.html':'text/html;charset=utf-8','.js':'text/javascript','.css':'text/css','.json':'application/json;charset=utf-8'}[p.extname(fp)]||'application/octet-stream';s.writeHead(200,{'content-type':t});s.end(d)})}).listen(8080,()=>console.log('http://localhost:8080'))\""
+  },
+  "keywords": ["成语", "成语故事", "儿童", "传统文化", "启蒙", "static", "offline"]
+}
