@@ -353,6 +353,11 @@
         ${gridHTML(known, "✅", "还没有标记「认识了」的成语～")}</div>
       <div class="learn-block"><h3>待学习<span class="lb-count">${tolearn.length} 条</span></h3>
         ${gridHTML(tolearn, "📌", "还没有加入「待学习」的成语～")}</div>
+      <div class="learn-block"><h3>历史回看</h3>
+        <button class="quick-btn" data-go="history" style="margin-top:8px;">
+          <span class="q-ico">📅</span>
+          <span><span class="q-t">查看近 30 天每日成语</span><br><span class="q-s">回顾每天学过的成语</span></span>
+        </button></div>
     </section>`;
   }
   function renderHistory() {
