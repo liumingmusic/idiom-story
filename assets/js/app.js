@@ -375,7 +375,7 @@
     const modal = $("#detailModal");
     const body = $("#modalBody");
     body.innerHTML = `<button class="modal-close" data-close aria-label="关闭">✕</button>` + heroHTML(item, false);
-    modal.hidden = false;
+    modal.classList.add("is-open");
     document.body.style.overflow = "hidden";
     bindHeroActions(item);
     // 让弹层里的“换一个”改为打开新的详情，而不是改主卡
@@ -392,7 +392,7 @@
   }
   function closeDetail() {
     speech.stop();
-    $("#detailModal").hidden = true;
+    $("#detailModal").classList.remove("is-open");
     document.body.style.overflow = "";
   }
 
