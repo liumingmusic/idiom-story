@@ -1,7 +1,8 @@
 /* =====================================================================
    成语故事 · 小初成语学习手册 · 前端逻辑（原生 JS，零依赖）
-   视图：首页 / 成语手册（按主题分层）/ 收藏 / 我的学习 / 历史回看
-   全部数据存 localStorage，完全离线
+   视图：首页 / 成语手册（按主题分层，滚动分批加载）/ 收藏 / 我的学习 / 历史回看
+   数据：idioms.json（基础字段）+ stories.json（典故详解，运行时叠加）
+   数据集首次加载后缓存进 localStorage，之后可离线、秒开
    ===================================================================== */
 (function () {
   "use strict";
@@ -310,19 +311,59 @@
     if (q) list = list.filter(x => x.word.includes(q) || (x.pinyin || "").toLowerCase().includes(q) || (x.explanation || "").includes(q) || (x.story || "").includes(q));
     return list;
   }
-  function renderGroups() {
-    const root = $("#hbList"); if (!root) return;
-    let html = "";
+  // -------------------------- 手册：滚动分批加载 --------------------------
+  const GROUP_BATCH = 3;            // 每次滚到底再追加的「主题组」数量
+  let _groupObserver = null;        // IntersectionObserver 实例
+  function computeGroups() {
+    const groups = [];
     for (const c of state.cats) {
       if (state.tag && state.tag !== c.name) continue;
       const items = matchItems(state.all.filter(x => (x.tags || []).includes(c.name)));
       if (!items.length) continue;
-      html += `<section class="hb-group" id="grp-${esc(c.name)}">
-        <h3 class="hb-group-title"><span class="g-emoji">${catEmoji(c.name)}</span>${esc(c.name)}<span class="g-count">${items.length} 个</span></h3>
-        <div class="results-grid">${items.map(x => cardHTML(x)).join("")}</div></section>`;
+      groups.push({ name: c.name, emoji: catEmoji(c.name), items });
     }
-    if (!html) root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个主题或关键词试试～</div>`;
-    else root.innerHTML = html;
+    return groups;
+  }
+  function groupHTML(g) {
+    return `<section class="hb-group" id="grp-${esc(g.name)}">
+      <h3 class="hb-group-title"><span class="g-emoji">${g.emoji}</span>${esc(g.name)}<span class="g-count">${g.items.length} 个</span></h3>
+      <div class="results-grid">${g.items.map(x => cardHTML(x)).join("")}</div></section>`;
+  }
+  function renderGroups() {
+    const root = $("#hbList"); if (!root) return;
+    if (_groupObserver) { _groupObserver.disconnect(); _groupObserver = null; }
+    state._groups = computeGroups();
+    state._gi = 0;
+    if (!state._groups.length) {
+      root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个主题或关键词试试～</div>`;
+      return;
+    }
+    root.innerHTML = `<div id="hbSentinel"></div>`;
+    appendGroups();
+  }
+  function appendGroups() {
+    const root = $("#hbList"), sentinel = $("#hbSentinel");
+    if (!root || !sentinel) return;
+    const groups = state._groups || [];
+    const done = () => {
+      sentinel.remove();
+      const note = document.createElement("div");
+      note.className = "load-end";
+      note.textContent = "— 已经到底啦，共 " + groups.reduce((n, g) => n + g.items.length, 0) + " 条 —";
+      root.appendChild(note);
+    };
+    if (state._gi >= groups.length) { done(); return; }
+    const end = Math.min(state._gi + GROUP_BATCH, groups.length);
+    let html = "";
+    for (; state._gi < end; state._gi++) html += groupHTML(groups[state._gi]);
+    sentinel.insertAdjacentHTML("beforebegin", html);
+    if (state._gi >= groups.length) { done(); return; }
+    if (!_groupObserver) {
+      _groupObserver = new IntersectionObserver((entries) => {
+        if (entries.some(e => e.isIntersecting)) appendGroups();
+      }, { rootMargin: "320px 0px" });
+    }
+    _groupObserver.observe(sentinel);
   }
 
   // -------------------------- 视图：收藏 / 我的学习 / 历史 --------------------------
@@ -405,18 +446,38 @@
   // -------------------------- 启动 --------------------------
   async function init() {
     $("#todayDate").textContent = fmtDateCN(new Date());
+    const CACHE_KEY = "idiom.dataset.v11";   // 数据集缓存键；数据集更新时改此版本号
+    let data = null;
+    // 1) 先试本地缓存（离线、秒开）
     try {
-      const res = await fetch("data/idioms.json", { cache: "no-cache" });
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      const data = await res.json();
-      state.all = data;
-      state.premium = data.filter(x => x.level === "premium");
-      data.forEach(x => { state.byWord.set(x.word, x); state.byId.set(x.id, x); });
-      buildCats();
-    } catch (e) {
-      $("#viewRoot").innerHTML = `<div class="empty-hint"><span class="eh-ico">⚠️</span>数据加载失败：${esc(e.message)}<br>请通过本地服务器或线上地址访问（不要直接双击打开 index.html）。</div>`;
-      return;
+      const cached = localStorage.getItem(CACHE_KEY);
+      if (cached) { const p = JSON.parse(cached); if (Array.isArray(p) && p.length) data = p; }
+    } catch (e) {}
+    // 2) 缓存没有则联网拉取，并叠加「典故详解」后写回缓存
+    if (!data) {
+      try {
+        const [res, sres] = await Promise.all([
+          fetch("data/idioms.json", { cache: "no-cache" }),
+          fetch("data/stories.json", { cache: "no-cache" }).catch(() => null),
+        ]);
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        data = await res.json();
+        // 叠加 data/stories.json 里的详细典故（只补全缺故事的条目）
+        let stories = {};
+        if (sres && sres.ok) { try { stories = await sres.json(); } catch (e) { stories = {}; } }
+        if (stories && typeof stories === "object") {
+          data.forEach(x => { if (stories[x.word] && (!x.story || x.story.length < 50)) x.story = stories[x.word]; });
+        }
+        try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch (e) {}
+      } catch (e) {
+        $("#viewRoot").innerHTML = `<div class="empty-hint"><span class="eh-ico">⚠️</span>数据加载失败：${esc(e.message)}<br>请通过本地服务器或线上地址访问（不要直接双击打开 index.html）。</div>`;
+        return;
+      }
     }
+    state.all = data;
+    state.premium = data.filter(x => x.level === "premium");
+    data.forEach(x => { state.byWord.set(x.word, x); state.byId.set(x.id, x); });
+    buildCats();
     renderView();
 
     // 导航（顶部 + 底部）
