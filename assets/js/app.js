@@ -311,9 +311,8 @@
     if (q) list = list.filter(x => x.word.includes(q) || (x.pinyin || "").toLowerCase().includes(q) || (x.explanation || "").includes(q) || (x.story || "").includes(q));
     return list;
   }
-  // -------------------------- 手册：滚动分批加载 --------------------------
-  const GROUP_BATCH = 3;            // 每次滚到底再追加的「主题组」数量
-  let _groupObserver = null;        // IntersectionObserver 实例
+  // -------------------------- 手册：分页（加载更多）加载 --------------------------
+  const GROUP_BATCH = 5;            // 每页加载的「主题组」数量
   function computeGroups() {
     const groups = [];
     for (const c of state.cats) {
@@ -331,39 +330,40 @@
   }
   function renderGroups() {
     const root = $("#hbList"); if (!root) return;
-    if (_groupObserver) { _groupObserver.disconnect(); _groupObserver = null; }
     state._groups = computeGroups();
     state._gi = 0;
     if (!state._groups.length) {
       root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个主题或关键词试试～</div>`;
       return;
     }
-    root.innerHTML = `<div id="hbSentinel"></div>`;
+    root.innerHTML = "";
     appendGroups();
   }
   function appendGroups() {
-    const root = $("#hbList"), sentinel = $("#hbSentinel");
-    if (!root || !sentinel) return;
+    const root = $("#hbList"); if (!root) return;
     const groups = state._groups || [];
-    const done = () => {
-      sentinel.remove();
-      const note = document.createElement("div");
-      note.className = "load-end";
-      note.textContent = "— 已经到底啦，共 " + groups.reduce((n, g) => n + g.items.length, 0) + " 条 —";
-      root.appendChild(note);
-    };
-    if (state._gi >= groups.length) { done(); return; }
+    if (state._gi >= groups.length) return;
     const end = Math.min(state._gi + GROUP_BATCH, groups.length);
     let html = "";
     for (; state._gi < end; state._gi++) html += groupHTML(groups[state._gi]);
-    sentinel.insertAdjacentHTML("beforebegin", html);
-    if (state._gi >= groups.length) { done(); return; }
-    if (!_groupObserver) {
-      _groupObserver = new IntersectionObserver((entries) => {
-        if (entries.some(e => e.isIntersecting)) appendGroups();
-      }, { rootMargin: "320px 0px" });
+    // 移除上一批的「加载更多」按钮（若有），再追加本批内容
+    const oldWrap = root.querySelector(".load-more-wrap");
+    if (oldWrap) oldWrap.remove();
+    root.insertAdjacentHTML("beforeend", html);
+    const total = groups.reduce((n, g) => n + g.items.length, 0);
+    if (state._gi >= groups.length) {
+      const note = document.createElement("div");
+      note.className = "load-end";
+      note.textContent = "— 已经到底啦，共 " + total + " 条 —";
+      root.appendChild(note);
+    } else {
+      const remain = groups.length - state._gi;
+      const wrap = document.createElement("div");
+      wrap.className = "load-more-wrap";
+      wrap.innerHTML = `<button class="load-more-btn" id="hbLoadMore" type="button">加载更多（还剩 ${remain} 组主题）</button>`;
+      root.appendChild(wrap);
+      wrap.querySelector("#hbLoadMore").addEventListener("click", appendGroups);
     }
-    _groupObserver.observe(sentinel);
   }
 
   // -------------------------- 视图：收藏 / 我的学习 / 历史 --------------------------
