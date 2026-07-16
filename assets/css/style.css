@@ -342,15 +342,15 @@ a { color: var(--vermilion-2); }
   .today-meta { width: 100%; justify-content: space-between; }
 
   .tabbar {
-    display: flex; justify-content: space-around; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+    display: flex; width: 100vw; position: fixed; left: 0; bottom: 0; z-index: 40;
     height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
     padding-bottom: env(safe-area-inset-bottom);
     background: rgba(255,253,247,.96); backdrop-filter: blur(10px);
     border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(80,60,30,.08);
   }
-  .tabitem { flex: 0 1 20%; min-width: 0; border: 0; background: transparent; cursor: pointer; padding: 0;
+  .tabitem { flex: 0 0 calc(100vw / 5); min-width: 0; border: 0; background: transparent; cursor: pointer; padding: 0;
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
-    color: var(--ink-soft); font-family: var(--sans); -webkit-tap-highlight-color: transparent; }
+    color: var(--ink-soft); font-family: var(--sans); -webkit-tap-highlight-color: transparent; overflow: hidden; }
   .tabitem .ti-ico { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
   .tabitem .ti-lab { font-size: 10px; white-space: nowrap; }
   .tabitem.is-active { color: var(--vermilion-2); }
