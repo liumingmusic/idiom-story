@@ -251,6 +251,8 @@ a { color: var(--vermilion-2); }
 
 /* ------------------------------ 弹层 ------------------------------ */
 .modal { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 18px; }
+/* 关键：hidden 属性必须能真正隐藏，否则 display:grid 会盖过浏览器默认的 [hidden] 规则 */
+.modal[hidden] { display: none; }
 .modal-backdrop { position: absolute; inset: 0; background: rgba(43,38,34,.5); backdrop-filter: blur(2px); }
 .modal-body {
   position: relative; z-index: 1; width: min(680px, 100%); max-height: 86vh; overflow: auto;
