@@ -331,6 +331,14 @@ a { color: var(--accent-2); text-decoration: none; }
 
 .load-end { text-align: center; color: var(--ink-soft); font-size: 13px; padding: 22px 0 6px; letter-spacing: 1px; }
 
+.load-more-wrap { text-align: center; padding: 18px 0 8px; }
+.load-more-btn { appearance: none; cursor: pointer; font: inherit; font-size: 14px; font-weight: 600;
+  color: var(--accent); background: var(--accent-soft); border: 1.5px solid var(--accent);
+  border-radius: 999px; padding: 11px 26px; transition: background .18s ease, transform .12s ease, box-shadow .18s ease; }
+.load-more-btn:hover { background: var(--accent); color: #fff; box-shadow: 0 6px 16px rgba(226,87,63,.28); }
+.load-more-btn:active { transform: translateY(1px) scale(.99); }
+.load-more-btn:focus-visible { outline: none; box-shadow: 0 0 0 4px rgba(226,87,63,.22); }
+
 /* ============================== 我的学习 ============================== */
 .progress-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm);
   padding: 14px 16px; box-shadow: var(--shadow-sm); margin: 8px 0 18px; }
