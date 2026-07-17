@@ -246,20 +246,13 @@
         <div class="stat jade"><span class="num">已认识</span><span class="big" id="stKnown">${k}</span></div>
         <div class="stat"><span class="num">待学习</span><span class="big" id="stTo">${t}</span></div>
       </div>
-      <div class="quick">
-        <button class="quick-btn" data-go="handbook"><span class="q-ico">📚</span><span><span class="q-t">成语手册</span><br><span class="q-s">按主题分层浏览全部成语</span></span></button>
-        <button class="quick-btn" data-go="favorites"><span class="q-ico">⭐</span><span><span class="q-t">我的收藏</span><br><span class="q-s">${f} 条已收藏</span></span></button>
-        <button class="quick-btn" data-go="mine"><span class="q-ico">📖</span><span><span class="q-t">我的学习</span><br><span class="q-s">认识 ${k} · 待学 ${t}</span></span></button>
-        <button class="quick-btn" data-go="history"><span class="q-ico">📅</span><span><span class="q-t">历史回看</span><br><span class="q-s">近 30 天每日成语</span></span></button>
-      </div>
+      <!-- 首页快捷入口已移除，导航统一由顶部 #topnav 承担 -->
     </section>`;
   }
   function refreshStats() {
     const f = $("#stFav"), k = $("#stKnown"), t = $("#stTo");
     if (f) { f.textContent = store.fav.size; k.textContent = store.known.size; t.textContent = store.tolearn.size; }
-    // 快捷入口里的数字也同步
-    const qf = $('.quick-btn[data-go="favorites"] .q-s'); if (qf) qf.textContent = `${store.fav.size} 条已收藏`;
-    const qm = $('.quick-btn[data-go="mine"] .q-s'); if (qm) qm.textContent = `认识 ${store.known.size} · 待学 ${store.tolearn.size}`;
+    // （首页快捷入口已移除，相关数字同步不再需要）
   }
 
   // -------------------------- 视图：成语手册（分层） --------------------------
