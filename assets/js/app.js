@@ -464,7 +464,7 @@
   function setView(v) {
     if (!["home", "handbook", "favorites", "mine", "history"].includes(v)) v = "home";
     state.view = v;
-    $$("#topnav .navlink, #tabbar .tabitem").forEach(b => b.classList.toggle("is-active", b.dataset.view === v));
+    $$("#topnav .navlink").forEach(b => b.classList.toggle("is-active", b.dataset.view === v));
     renderView(); window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -505,8 +505,8 @@
     buildCats();
     renderView();
 
-    // 导航（顶部 + 底部）
-    $$("#topnav .navlink, #tabbar .tabitem").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
+    // 导航（顶部主导航，手机端也显示）
+    $$("#topnav .navlink").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
     // 首页快捷入口
     $("#viewRoot").addEventListener("click", (e) => {
       const go = e.target.closest("[data-go]"); if (go) { setView(go.dataset.go); return; }
