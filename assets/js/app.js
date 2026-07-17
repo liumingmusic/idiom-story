@@ -17,6 +17,7 @@
     view: "home",        // home | handbook | favorites | mine | history
     tag: "",             // 手册主题筛选
     alpha: "",           // 首字母筛选
+    stage: "",           // 学段筛选（小学/初中/高中）
     q: "",               // 搜索词（手册内）
   };
 
@@ -55,6 +56,8 @@
   }
   const CAT_EMOJI = { "寓言": "🦊", "历史": "📜", "品质": "🌟", "劝诫": "💡", "自然": "🌿", "人物": "🧑", "学习": "📘", "智慧": "🧠", "情感": "💗", "励志": "🔥", "诚信": "🤝", "谦虚": "🙇", "军事": "⚔️", "艺术": "🎨", "数字": "🔢" };
   const catEmoji = (t) => CAT_EMOJI[t] || "📖";
+  const STAGE_EMOJI = { "小学": "📘", "初中": "📗", "高中": "📙" };
+  const stageEmoji = (s) => STAGE_EMOJI[s] || "📚";
 
   function toast(msg) {
     const t = $("#toast"); t.textContent = msg; t.hidden = false;
@@ -184,7 +187,7 @@
     return `<article class="card" data-id="${item.id}" tabindex="0">
       ${flags ? `<div class="card-flags">${flags}</div>` : ""}
       <div class="card-word">${esc(item.word)}</div>
-      <div class="card-pinyin">${esc(item.pinyin)}</div>
+      <div class="card-pinyin">${esc(item.pinyin)} <span class="mini-stage stage-${esc(item.stage || "")}">${esc(item.stage || "")}</span></div>
       <div class="card-explain">${esc(item.explanation)}</div>
       <div class="card-tags">${tags}</div>${extra || ""}</article>`;
   }
@@ -265,13 +268,14 @@
   function renderHandbook() {
     return `<section class="view view-handbook">
       <h2 class="view-title">成语手册</h2>
-      <p class="view-desc">共 ${state.all.length} 条成语，按主题分层。点卡片看详情，可朗读、收藏、标记。</p>
+      <p class="view-desc">共 ${state.all.length} 条成语，按学段（小学 / 初中 / 高中）分层，可再按主题、首字母筛选。点卡片看详情，可朗读、收藏、标记。</p>
       <div class="hb-toolbar">
         <div class="search-box">
           <span class="search-icon">🔍</span>
           <input id="hbSearch" type="search" inputmode="search" autocomplete="off" placeholder="搜索成语 / 释义 / 故事……" aria-label="搜索成语" />
           <button id="hbClear" class="clear-btn" aria-label="清除" hidden>✕</button>
         </div>
+        <div class="filter-group"><span class="filter-label">学段</span><div class="chips" id="stageChips"></div></div>
         <div class="filter-group"><span class="filter-label">主题</span><div class="chips" id="catChips"></div></div>
         <div class="filter-group"><span class="filter-label">首字母</span><div class="chips alpha" id="alphaChips"></div></div>
       </div>
@@ -292,6 +296,13 @@
     $$(".chip", aWrap).forEach(c => c.addEventListener("click", () => {
       state.alpha = c.dataset.alpha; $$(".chip", aWrap).forEach(x => x.classList.toggle("is-active", x === c)); renderGroups();
     }));
+    const sWrap = $("#stageChips");
+    sWrap.innerHTML = `<span class="chip is-active" data-stage="">全部</span>` +
+      ["小学", "初中", "高中"].map(s => `<span class="chip" data-stage="${s}">${s}</span>`).join("");
+    $$(".chip", sWrap).forEach(c => c.addEventListener("click", () => {
+      state.stage = c.dataset.stage; $$(".chip", sWrap).forEach(x => x.classList.toggle("is-active", x === c));
+      renderGroups(); $("#hbList").scrollIntoView({ behavior: "smooth", block: "start" });
+    }));
     const input = $("#hbSearch"), clear = $("#hbClear");
     let timer = null;
     input.addEventListener("input", () => { clear.hidden = !input.value; clearTimeout(timer); timer = setTimeout(() => { state.q = input.value; renderGroups(); }, 140); });
@@ -300,6 +311,7 @@
   function matchItems(items) {
     const q = state.q.trim().toLowerCase();
     let list = items;
+    if (state.stage) list = list.filter(x => (x.stage || "") === state.stage);
     if (state.alpha) list = list.filter(x => x.initial === state.alpha);
     if (q) list = list.filter(x => x.word.includes(q) || (x.pinyin || "").toLowerCase().includes(q) || (x.explanation || "").includes(q) || (x.story || "").includes(q));
     return list;
@@ -308,29 +320,37 @@
   const ITEM_BATCH = 8;            // 每批加载的成语条数（默认先加载 8 条，滚动再加 8 条）
   function computeGroups() {
     const groups = [];
-    for (const c of state.cats) {
-      if (state.tag && state.tag !== c.name) continue;
-      const items = matchItems(state.all.filter(x => (x.tags || []).includes(c.name)));
+    for (const st of ["小学", "初中", "高中"]) {
+      if (state.stage && state.stage !== st) continue;
+      const items = matchItems(state.all.filter(x => (x.stage || "") === st));
       if (!items.length) continue;
-      groups.push({ name: c.name, emoji: catEmoji(c.name), items });
+      groups.push({ name: st, emoji: stageEmoji(st), items });
     }
     return groups;
   }
-  function groupHTML(g) {
-    return `<section class="hb-group" id="grp-${esc(g.name)}">
-      <h3 class="hb-group-title"><span class="g-emoji">${g.emoji}</span>${esc(g.name)}<span class="g-count">${g.items.length} 个</span></h3>
-      <div class="results-grid">${g.items.map(x => cardHTML(x)).join("")}</div></section>`;
+  function ensureGroupSection(g) {
+    const id = "grp-" + g.name;
+    let sec = document.getElementById(id);
+    if (!sec) {
+      sec = document.createElement("section");
+      sec.className = "hb-group";
+      sec.id = id;
+      sec.innerHTML = `<h3 class="hb-group-title"><span class="g-emoji">${g.emoji}</span>${esc(g.name)}<span class="g-count">${g.items.length} 个</span></h3><div class="results-grid"></div>`;
+      $("#hbList").appendChild(sec);
+    }
+    return sec.querySelector(".results-grid");
   }
   function totalItems() { return (state._groups || []).reduce((n, g) => n + g.items.length, 0); }
   function hasMoreGroups() { return state._gi < (state._groups || []).length; }
   function renderGroups() {
     const root = $("#hbList"); if (!root) return;
     state._groups = computeGroups();
-    state._gi = 0;            // 下一个待渲染的主题组索引
+    state._gi = 0;            // 当前正在填充的学段组索引
+    state._gpos = 0;          // 当前组内已渲染到的条数位置
     state._shown = 0;         // 已渲染的成语条数
     state._show = ITEM_BATCH; // 当前要展示到的条数预算（默认 8）
     if (!state._groups.length) {
-      root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个主题或关键词试试～</div>`;
+      root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个学段、主题或关键词试试～</div>`;
       return;
     }
     root.innerHTML = "";
@@ -343,15 +363,17 @@
     // 先移除上一批的页脚（加载更多 / 到底提示），再追加本批内容
     const old = root.querySelector(".load-more-wrap, .load-end");
     if (old) old.remove();
-    let html = "";
-    // 整组渲染，但受「条数预算」控制：累计达到 _show 才停（至少渲染一个整组）
+    // 按「条数预算」逐组、逐批渲染：学段组较大时，组内也分页（每批 8 条），实现真正的滚动加载
     while (state._gi < groups.length && state._shown < state._show) {
       const g = groups[state._gi];
-      html += groupHTML(g);
-      state._shown += g.items.length;
-      state._gi++;
+      const grid = ensureGroupSection(g);
+      const end = Math.min(g.items.length, state._gpos + (state._show - state._shown));
+      const slice = g.items.slice(state._gpos, end);
+      grid.insertAdjacentHTML("beforeend", slice.map(x => cardHTML(x)).join(""));
+      state._shown += slice.length;
+      state._gpos = end;
+      if (state._gpos >= g.items.length) { state._gi++; state._gpos = 0; }
     }
-    root.insertAdjacentHTML("beforeend", html);
     if (!hasMoreGroups()) {
       const note = document.createElement("div");
       note.className = "load-end";
@@ -464,7 +486,7 @@
   // -------------------------- 启动 --------------------------
   async function init() {
     $("#todayDate").textContent = fmtDateCN(new Date());
-    const CACHE_KEY = "idiom.dataset.v11";   // 数据集缓存键；数据集更新时改此版本号
+    const CACHE_KEY = "idiom.dataset.v18";   // 数据集缓存键；数据集更新时改此版本号（v18：新增 stage 学段字段+扩充词库）
     let data = null;
     // 1) 先试本地缓存（离线、秒开）
     try {
