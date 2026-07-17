@@ -20,7 +20,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0002",
@@ -43,7 +44,8 @@
       "历史",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0003",
@@ -66,7 +68,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0004",
@@ -89,7 +92,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0005",
@@ -112,7 +116,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0006",
@@ -135,7 +140,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0007",
@@ -158,7 +164,8 @@
       "历史",
       "品德"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0008",
@@ -181,7 +188,8 @@
       "历史",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0009",
@@ -204,7 +212,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0010",
@@ -227,7 +236,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0011",
@@ -250,7 +260,8 @@
       "历史",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0012",
@@ -273,7 +284,8 @@
       "历史",
       "文化"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0013",
@@ -296,7 +308,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0014",
@@ -319,7 +332,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0015",
@@ -342,7 +356,8 @@
       "历史",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0016",
@@ -365,7 +380,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0017",
@@ -388,7 +404,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0018",
@@ -411,7 +428,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0019",
@@ -434,7 +452,8 @@
       "历史",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0020",
@@ -457,7 +476,8 @@
       "神话",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0021",
@@ -480,7 +500,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0022",
@@ -503,7 +524,8 @@
       "历史",
       "品德"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0023",
@@ -526,7 +548,8 @@
       "神话",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0024",
@@ -549,7 +572,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0025",
@@ -572,7 +596,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0026",
@@ -595,7 +620,8 @@
       "历史",
       "文化"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0027",
@@ -618,7 +644,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0028",
@@ -641,7 +668,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0029",
@@ -664,7 +692,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0030",
@@ -687,7 +716,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0031",
@@ -710,7 +740,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0032",
@@ -733,7 +764,8 @@
       "神话",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0033",
@@ -756,7 +788,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0034",
@@ -779,7 +812,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0035",
@@ -802,7 +836,8 @@
       "历史",
       "文化"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0036",
@@ -825,7 +860,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0037",
@@ -848,7 +884,8 @@
       "历史",
       "礼贤"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0038",
@@ -871,7 +908,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0039",
@@ -894,7 +932,8 @@
       "历史",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0040",
@@ -917,7 +956,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0041",
@@ -940,7 +980,8 @@
       "历史",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0042",
@@ -963,7 +1004,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0043",
@@ -986,7 +1028,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0044",
@@ -1009,7 +1052,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0045",
@@ -1032,7 +1076,8 @@
       "历史",
       "品德"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0046",
@@ -1055,7 +1100,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0047",
@@ -1078,7 +1124,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0048",
@@ -1101,7 +1148,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0049",
@@ -1124,7 +1172,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0050",
@@ -1147,7 +1196,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0051",
@@ -1170,7 +1220,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0052",
@@ -1193,7 +1244,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0053",
@@ -1216,7 +1268,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0054",
@@ -1239,7 +1292,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0055",
@@ -1262,7 +1316,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0056",
@@ -1285,7 +1340,8 @@
       "历史",
       "智慧"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0057",
@@ -1308,7 +1364,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0058",
@@ -1331,7 +1388,8 @@
       "历史",
       "品德"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0059",
@@ -1354,7 +1412,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0060",
@@ -1377,7 +1436,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0061",
@@ -1400,7 +1460,8 @@
       "寓言",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0062",
@@ -1423,7 +1484,8 @@
       "历史",
       "励志"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0063",
@@ -1446,7 +1508,8 @@
       "寓言",
       "哲理"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0064",
@@ -1469,7 +1532,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0065",
@@ -1492,7 +1556,8 @@
       "历史",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0066",
@@ -1515,7 +1580,8 @@
       "历史",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "初中"
   },
   {
     "id": "idiom-0067",
@@ -1538,7 +1604,8 @@
       "寓言",
       "劝诫"
     ],
-    "level": "premium"
+    "level": "premium",
+    "stage": "小学"
   },
   {
     "id": "idiom-0068",
@@ -1554,7 +1621,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0069",
@@ -1570,7 +1638,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0070",
@@ -1586,7 +1655,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0071",
@@ -1602,7 +1672,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0072",
@@ -1618,7 +1689,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0073",
@@ -1634,7 +1706,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0074",
@@ -1650,7 +1723,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0075",
@@ -1666,7 +1740,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0076",
@@ -1682,7 +1757,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0077",
@@ -1698,7 +1774,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0078",
@@ -1714,7 +1791,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0079",
@@ -1730,7 +1808,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0080",
@@ -1746,7 +1825,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0081",
@@ -1762,7 +1842,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0082",
@@ -1778,7 +1859,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0083",
@@ -1794,7 +1876,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0084",
@@ -1810,7 +1893,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0085",
@@ -1826,7 +1910,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0086",
@@ -1842,7 +1927,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0087",
@@ -1859,7 +1945,8 @@
       "历史",
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0088",
@@ -1875,7 +1962,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0089",
@@ -1891,7 +1979,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0090",
@@ -1907,7 +1996,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0091",
@@ -1923,7 +2013,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0092",
@@ -1939,7 +2030,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0093",
@@ -1955,7 +2047,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0094",
@@ -1971,7 +2064,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0095",
@@ -1987,7 +2081,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0096",
@@ -2003,7 +2098,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0097",
@@ -2019,7 +2115,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0098",
@@ -2035,7 +2132,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0099",
@@ -2051,7 +2149,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0100",
@@ -2067,7 +2166,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0101",
@@ -2083,7 +2183,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0102",
@@ -2099,7 +2200,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0103",
@@ -2115,7 +2217,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0104",
@@ -2131,7 +2234,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0105",
@@ -2147,7 +2251,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0106",
@@ -2163,7 +2268,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0107",
@@ -2179,7 +2285,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0108",
@@ -2195,7 +2302,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0109",
@@ -2211,7 +2319,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0110",
@@ -2227,7 +2336,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0111",
@@ -2243,7 +2353,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0112",
@@ -2259,7 +2370,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0113",
@@ -2275,7 +2387,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0114",
@@ -2291,7 +2404,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0115",
@@ -2307,7 +2421,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0116",
@@ -2323,7 +2438,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0117",
@@ -2339,7 +2455,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0118",
@@ -2355,7 +2472,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0119",
@@ -2371,7 +2489,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0120",
@@ -2387,7 +2506,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0121",
@@ -2403,7 +2523,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0122",
@@ -2419,7 +2540,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0123",
@@ -2435,7 +2557,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0124",
@@ -2451,7 +2574,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0125",
@@ -2467,7 +2591,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0126",
@@ -2483,7 +2608,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0127",
@@ -2499,7 +2625,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0128",
@@ -2515,7 +2642,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0129",
@@ -2531,7 +2659,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0130",
@@ -2547,7 +2676,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0131",
@@ -2563,7 +2693,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0132",
@@ -2579,7 +2710,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0133",
@@ -2595,7 +2727,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0134",
@@ -2611,7 +2744,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0135",
@@ -2627,7 +2761,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0136",
@@ -2643,7 +2778,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0137",
@@ -2659,7 +2795,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0138",
@@ -2675,7 +2812,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0139",
@@ -2691,7 +2829,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0140",
@@ -2707,7 +2846,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0141",
@@ -2723,7 +2863,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0142",
@@ -2739,7 +2880,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0143",
@@ -2755,7 +2897,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0144",
@@ -2771,7 +2914,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0145",
@@ -2787,7 +2931,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0146",
@@ -2803,7 +2948,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0147",
@@ -2819,7 +2965,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0148",
@@ -2835,7 +2982,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0149",
@@ -2851,7 +2999,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0150",
@@ -2867,7 +3016,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0151",
@@ -2883,7 +3033,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0152",
@@ -2899,7 +3050,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0153",
@@ -2915,7 +3067,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0154",
@@ -2931,7 +3084,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0155",
@@ -2947,7 +3101,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0156",
@@ -2963,7 +3118,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0157",
@@ -2979,7 +3135,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0158",
@@ -2995,7 +3152,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0159",
@@ -3011,7 +3169,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0160",
@@ -3027,7 +3186,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0161",
@@ -3043,7 +3203,8 @@
     "tags": [
       "历史"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0162",
@@ -3059,7 +3220,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0163",
@@ -3075,7 +3237,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0164",
@@ -3091,7 +3254,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0165",
@@ -3107,7 +3271,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0166",
@@ -3123,7 +3288,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0167",
@@ -3139,7 +3305,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0168",
@@ -3155,7 +3322,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0169",
@@ -3171,7 +3339,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0170",
@@ -3187,7 +3356,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0171",
@@ -3203,7 +3373,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0172",
@@ -3219,7 +3390,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0173",
@@ -3235,7 +3407,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0174",
@@ -3251,7 +3424,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0175",
@@ -3267,7 +3441,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0176",
@@ -3283,7 +3458,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0177",
@@ -3299,7 +3475,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0178",
@@ -3315,7 +3492,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0179",
@@ -3331,7 +3509,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0180",
@@ -3347,7 +3526,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0181",
@@ -3363,7 +3543,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0182",
@@ -3379,7 +3560,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0183",
@@ -3395,7 +3577,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0184",
@@ -3411,7 +3594,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0185",
@@ -3427,7 +3611,8 @@
     "tags": [
       "历史"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0186",
@@ -3443,7 +3628,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0187",
@@ -3459,7 +3645,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0188",
@@ -3475,7 +3662,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0189",
@@ -3491,7 +3679,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0190",
@@ -3507,7 +3696,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0191",
@@ -3523,7 +3713,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0192",
@@ -3539,7 +3730,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0193",
@@ -3555,7 +3747,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0194",
@@ -3571,7 +3764,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0195",
@@ -3587,7 +3781,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0196",
@@ -3603,7 +3798,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0197",
@@ -3619,7 +3815,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0198",
@@ -3635,7 +3832,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0199",
@@ -3651,7 +3849,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0200",
@@ -3667,7 +3866,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0201",
@@ -3683,7 +3883,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0202",
@@ -3699,7 +3900,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "高中"
   },
   {
     "id": "idiom-0203",
@@ -3715,7 +3917,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0204",
@@ -3731,7 +3934,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0205",
@@ -3747,7 +3951,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0206",
@@ -3763,7 +3968,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0207",
@@ -3779,7 +3985,8 @@
     "tags": [
       "寓言"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "小学"
   },
   {
     "id": "idiom-0208",
@@ -3795,7 +4002,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0209",
@@ -3811,7 +4019,8 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
   },
   {
     "id": "idiom-0210",
@@ -3827,6 +4036,2924 @@
     "tags": [
       "常用"
     ],
-    "level": "supplement"
+    "level": "supplement",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0211",
+    "initial": "Z",
+    "word": "坐井观天",
+    "pinyin": "zuò jǐng guān tiān",
+    "explanation": "比喻眼界狭小，见识有限。",
+    "source": "《庄子·秋水》",
+    "story": "青蛙住在浅井里，以为天只有井口那么大；后来见到大海，才知道自己多渺小。",
+    "example": "我们要多走出去看看，不能坐井观天。",
+    "synonym": [
+      "井底之蛙"
+    ],
+    "antonym": [
+      "见多识广"
+    ],
+    "tags": [
+      "寓言",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0212",
+    "initial": "H",
+    "word": "后羿射日",
+    "pinyin": "hòu yì shè rì",
+    "explanation": "形容征服自然灾害、为民除害的壮举；也比喻勇猛有力。",
+    "source": "《淮南子》",
+    "story": "天上有十个太阳，禾苗枯焦；后羿弯弓射下九个，留下一个普照大地。",
+    "example": "面对困难，要有后羿射日般的勇气。",
+    "synonym": [],
+    "antonym": [],
+    "tags": [
+      "神话",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0213",
+    "initial": "B",
+    "word": "八仙过海",
+    "pinyin": "bā xiān guò hǎi",
+    "explanation": "比喻各自施展本领，互相竞赛。",
+    "source": "民间传说",
+    "story": "八位神仙渡东海，各用自家宝物：铁拐李用葫芦，吕洞宾用箫……纷纷显神通。",
+    "example": "这次比赛大家八仙过海，各显神通。",
+    "synonym": [
+      "各显神通"
+    ],
+    "antonym": [],
+    "tags": [
+      "神话",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0214",
+    "initial": "K",
+    "word": "开天辟地",
+    "pinyin": "kāi tiān pì dì",
+    "explanation": "比喻前所未有的伟大事业。",
+    "source": "《三五历纪》",
+    "story": "盘古用斧劈开混沌，轻者上升为天，重者下沉为地，这才有了世界。",
+    "example": "改革开放是开天辟地的大事。",
+    "synonym": [
+      "创世纪"
+    ],
+    "antonym": [],
+    "tags": [
+      "神话",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0215",
+    "initial": "D",
+    "word": "点石成金",
+    "pinyin": "diǎn shí chéng jīn",
+    "explanation": "比喻把不好的文字改好，或让事物变得珍贵。",
+    "source": "《列仙传》",
+    "story": "仙人许逊有妙法，手指一点顽石便成黄金，常用来助人。",
+    "example": "老师寥寥数语，便点石成金，改好了我的作文。",
+    "synonym": [
+      "妙笔生花"
+    ],
+    "antonym": [],
+    "tags": [
+      "寓言",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0216",
+    "initial": "P",
+    "word": "鹏程万里",
+    "pinyin": "péng chéng wàn lǐ",
+    "explanation": "比喻前程远大。",
+    "source": "《庄子·逍遥游》",
+    "story": "大鹏鸟展翅高飞，扶摇直上九万里，志在远方。",
+    "example": "愿你鹏程万里，前途似锦。",
+    "synonym": [
+      "前程似锦"
+    ],
+    "antonym": [
+      "日暮途穷"
+    ],
+    "tags": [
+      "寓言",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0217",
+    "initial": "C",
+    "word": "沧海一粟",
+    "pinyin": "cāng hǎi yī sù",
+    "explanation": "比喻非常渺小，微不足道。",
+    "source": "苏轼《前赤壁赋》",
+    "story": "苏轼泛舟赤壁，感叹人在天地间，就像大海里的一粒小米。",
+    "example": "在浩瀚宇宙里，人类不过是沧海一粟。",
+    "synonym": [
+      "九牛一毛"
+    ],
+    "antonym": [
+      "庞然大物"
+    ],
+    "tags": [
+      "哲理",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0218",
+    "initial": "Y",
+    "word": "一目十行",
+    "pinyin": "yī mù shí háng",
+    "explanation": "形容阅读极快。",
+    "source": "《梁书》",
+    "story": "梁简文帝自幼聪慧，读书一眼能看十行，过目成诵。",
+    "example": "他看书一目十行，过目不忘。",
+    "synonym": [
+      "过目成诵"
+    ],
+    "antonym": [
+      "慢条斯理"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0219",
+    "initial": "H",
+    "word": "囫囵吞枣",
+    "pinyin": "hú lún tūn zǎo",
+    "explanation": "比喻读书或理解不加分析，笼统接受。",
+    "source": "民间故事",
+    "story": "有人吃枣怕伤牙，整颗吞下，结果什么味都没尝到，还差点噎着。",
+    "example": "学习不能囫囵吞枣，要细细领会。",
+    "synonym": [
+      "不求甚解"
+    ],
+    "antonym": [
+      "细嚼慢咽"
+    ],
+    "tags": [
+      "寓言",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0220",
+    "initial": "M",
+    "word": "名落孙山",
+    "pinyin": "míng luò sūn shān",
+    "explanation": "指考试或选拔未被录取。",
+    "source": "《过庭录》",
+    "story": "孙山考中末名，友人之子落榜，孙山回信说“解名尽处是孙山，贤郎更在孙山外”。",
+    "example": "这次没考上也不要紧，名落孙山是常事。",
+    "synonym": [],
+    "antonym": [
+      "金榜题名"
+    ],
+    "tags": [
+      "历史",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0221",
+    "initial": "S",
+    "word": "守口如瓶",
+    "pinyin": "shǒu kǒu rú píng",
+    "explanation": "形容说话谨慎，严守秘密。",
+    "source": "",
+    "story": "",
+    "example": "这件事你务必守口如瓶，别外传。",
+    "synonym": [
+      "讳莫如深"
+    ],
+    "antonym": [
+      "口若悬河"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0222",
+    "initial": "X",
+    "word": "雪中送炭",
+    "pinyin": "xuě zhōng sòng tàn",
+    "explanation": "比喻在别人困难时及时帮助。",
+    "source": "范成大诗",
+    "story": "范成大写诗说，下雪天给人送炭最贴心，比锦上添花更难得。",
+    "example": "朋友落难时你伸出援手，真是雪中送炭。",
+    "synonym": [
+      "济困扶危"
+    ],
+    "antonym": [
+      "落井下石"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0223",
+    "initial": "J",
+    "word": "锦上添花",
+    "pinyin": "jǐn shàng tiān huā",
+    "explanation": "比喻好上加好。",
+    "source": "",
+    "story": "",
+    "example": "文章已经很好，再改几句便是锦上添花。",
+    "synonym": [
+      "画龙点睛"
+    ],
+    "antonym": [
+      "雪上加霜"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0224",
+    "initial": "M",
+    "word": "名正言顺",
+    "pinyin": "míng zhèng yán shùn",
+    "explanation": "指名义正当，道理也说得通。",
+    "source": "《论语》",
+    "story": "孔子说，名分不正，说话就不顺；名正了，道理自然通顺。",
+    "example": "既然是你应得的，拿起来名正言顺。",
+    "synonym": [
+      "理直气壮"
+    ],
+    "antonym": [
+      "理屈词穷"
+    ],
+    "tags": [
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0225",
+    "initial": "Y",
+    "word": "一举两得",
+    "pinyin": "yī jǔ liǎng dé",
+    "explanation": "做一件事得到两方面的好处。",
+    "source": "",
+    "story": "",
+    "example": "骑车上班既锻炼又省钱，一举两得。",
+    "synonym": [
+      "一箭双雕"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0226",
+    "initial": "S",
+    "word": "三心二意",
+    "pinyin": "sān xīn èr yì",
+    "explanation": "形容犹豫不决或用心不专。",
+    "source": "",
+    "story": "",
+    "example": "做事要专心，不能三心二意。",
+    "synonym": [
+      "心猿意马"
+    ],
+    "antonym": [
+      "一心一意"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0227",
+    "initial": "Q",
+    "word": "七上八下",
+    "pinyin": "qī shàng bā xià",
+    "explanation": "形容心里慌乱不安。",
+    "source": "",
+    "story": "",
+    "example": "等成绩时，我心里七上八下的。",
+    "synonym": [
+      "忐忑不安"
+    ],
+    "antonym": [
+      "心安理得"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0228",
+    "initial": "J",
+    "word": "九牛一毛",
+    "pinyin": "jiǔ niú yì máo",
+    "explanation": "比喻极大数量中极微小的一部分。",
+    "source": "司马迁《报任安书》",
+    "story": "司马迁说自己所受的刑，比起国家的危难，不过是九牛失一毛。",
+    "example": "这点钱对他来说不过是九牛一毛。",
+    "synonym": [
+      "沧海一粟"
+    ],
+    "antonym": [
+      "举足轻重"
+    ],
+    "tags": [
+      "常用",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0229",
+    "initial": "B",
+    "word": "百发百中",
+    "pinyin": "bǎi fā bǎi zhòng",
+    "explanation": "形容射箭或射击极准；也比喻料事准确。",
+    "source": "《战国策》",
+    "story": "楚国养由基善射，在百步外射柳叶，百发而百中，人称“神箭手”。",
+    "example": "他投篮百发百中。",
+    "synonym": [
+      "弹无虚发"
+    ],
+    "antonym": [
+      "无的放矢"
+    ],
+    "tags": [
+      "常用",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0230",
+    "initial": "W",
+    "word": "五光十色",
+    "pinyin": "wǔ guāng shí sè",
+    "explanation": "形容色彩鲜艳，花样繁多。",
+    "source": "",
+    "story": "",
+    "example": "节日的灯饰五光十色，十分好看。",
+    "synonym": [
+      "五颜六色"
+    ],
+    "antonym": [
+      "色彩单一"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0231",
+    "initial": "W",
+    "word": "五颜六色",
+    "pinyin": "wǔ yán liù sè",
+    "explanation": "形容色彩繁多。",
+    "source": "",
+    "story": "",
+    "example": "花园里五颜六色的花竞相开放。",
+    "synonym": [
+      "五彩缤纷"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0232",
+    "initial": "Q",
+    "word": "千变万化",
+    "pinyin": "qiān biàn wàn huà",
+    "explanation": "形容变化极多。",
+    "source": "《庄子》",
+    "story": "庄子说万物千变万化，没有穷尽，不可拘泥。",
+    "example": "天上的云千变万化，很有趣。",
+    "synonym": [
+      "变化多端"
+    ],
+    "antonym": [
+      "一成不变"
+    ],
+    "tags": [
+      "常用",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0233",
+    "initial": "Q",
+    "word": "千钧一发",
+    "pinyin": "qiān jūn yī fà",
+    "explanation": "比喻情况万分危急。",
+    "source": "《汉书》",
+    "story": "古人说用一根头发系千钧重物，随时会断，形容极其危险。",
+    "example": "火车就要进站，他却在铁轨上，真是千钧一发。",
+    "synonym": [
+      "危在旦夕"
+    ],
+    "antonym": [
+      "安如泰山"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0234",
+    "initial": "J",
+    "word": "井井有条",
+    "pinyin": "jǐng jǐng yǒu tiáo",
+    "explanation": "形容条理分明，整齐有序。",
+    "source": "",
+    "story": "",
+    "example": "妈妈把家里收拾得井井有条。",
+    "synonym": [
+      "有条不紊"
+    ],
+    "antonym": [
+      "杂乱无章"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0235",
+    "initial": "J",
+    "word": "津津有味",
+    "pinyin": "jīn jīn yǒu wèi",
+    "explanation": "形容有滋味、有趣味。",
+    "source": "",
+    "story": "",
+    "example": "他正津津有味地读着故事书。",
+    "synonym": [
+      "兴致勃勃"
+    ],
+    "antonym": [
+      "索然无味"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0236",
+    "initial": "Y",
+    "word": "依依不舍",
+    "pinyin": "yī yī bù shě",
+    "explanation": "形容十分留恋，舍不得离开。",
+    "source": "",
+    "story": "",
+    "example": "毕业时，大家依依不舍地告别。",
+    "synonym": [
+      "恋恋不舍"
+    ],
+    "antonym": [
+      "扬长而去"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0237",
+    "initial": "L",
+    "word": "恋恋不舍",
+    "pinyin": "liàn liàn bù shě",
+    "explanation": "形容非常留恋，舍不得离去。",
+    "source": "",
+    "story": "",
+    "example": "游玩结束，我们恋恋不舍地离开了公园。",
+    "synonym": [
+      "依依不舍"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0238",
+    "initial": "T",
+    "word": "亭亭玉立",
+    "pinyin": "tíng tíng yù lì",
+    "explanation": "形容女子身材细长秀丽或花木挺拔。",
+    "source": "",
+    "story": "",
+    "example": "池塘里荷花亭亭玉立。",
+    "synonym": [
+      "婀娜多姿"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0239",
+    "initial": "T",
+    "word": "滔滔不绝",
+    "pinyin": "tāo tāo bù jué",
+    "explanation": "形容话很多，连续不断。",
+    "source": "",
+    "story": "",
+    "example": "他讲起故事来滔滔不绝。",
+    "synonym": [
+      "口若悬河"
+    ],
+    "antonym": [
+      "吞吞吐吐"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0240",
+    "initial": "Y",
+    "word": "源源不断",
+    "pinyin": "yuán yuán bù duàn",
+    "explanation": "形容连续不断。",
+    "source": "",
+    "story": "",
+    "example": "爱心捐款源源不断地汇来。",
+    "synonym": [
+      "连绵不断"
+    ],
+    "antonym": [
+      "断断续续"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0241",
+    "initial": "D",
+    "word": "得意洋洋",
+    "pinyin": "dé yì yáng yáng",
+    "explanation": "形容称心如意、沾沾自喜的样子。",
+    "source": "《史记》",
+    "story": "晏子车夫的妻子见丈夫为晏子驾车还得意洋洋，劝他谦逊，车夫从此改过。",
+    "example": "他考了满分，得意洋洋地回家了。",
+    "synonym": [
+      "沾沾自喜"
+    ],
+    "antonym": [
+      "垂头丧气"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0242",
+    "initial": "Y",
+    "word": "一本正经",
+    "pinyin": "yī běn zhèng jīng",
+    "explanation": "形容态度庄重严肃（有时含诙谐意）。",
+    "source": "",
+    "story": "",
+    "example": "他一本正经地给我们讲道理。",
+    "synonym": [
+      "正颜厉色"
+    ],
+    "antonym": [
+      "嬉皮笑脸"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0243",
+    "initial": "Q",
+    "word": "千方百计",
+    "pinyin": "qiān fāng bǎi jì",
+    "explanation": "想尽或用尽一切办法。",
+    "source": "",
+    "story": "",
+    "example": "大家千方百计抢救受伤的小鸟。",
+    "synonym": [
+      "想方设法"
+    ],
+    "antonym": [
+      "无计可施"
+    ],
+    "tags": [
+      "常用",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0244",
+    "initial": "W",
+    "word": "无忧无虑",
+    "pinyin": "wú yōu wú lǜ",
+    "explanation": "没有一点忧愁和顾虑。",
+    "source": "",
+    "story": "",
+    "example": "童年生活无忧无虑。",
+    "synonym": [
+      "无牵无挂"
+    ],
+    "antonym": [
+      "忧心忡忡"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0245",
+    "initial": "W",
+    "word": "无边无际",
+    "pinyin": "wú biān wú jì",
+    "explanation": "形容范围极为广阔。",
+    "source": "",
+    "story": "",
+    "example": "草原无边无际，一眼望不到头。",
+    "synonym": [
+      "一望无际"
+    ],
+    "antonym": [
+      "弹丸之地"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0246",
+    "initial": "Z",
+    "word": "自言自语",
+    "pinyin": "zì yán zì yǔ",
+    "explanation": "自己跟自己说话。",
+    "source": "",
+    "story": "",
+    "example": "奶奶常自言自语地念叨。",
+    "synonym": [],
+    "antonym": [],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0247",
+    "initial": "G",
+    "word": "各式各样",
+    "pinyin": "gè shì gè yàng",
+    "explanation": "多种不同的式样或方式。",
+    "source": "",
+    "story": "",
+    "example": "商店里有各式各样的玩具。",
+    "synonym": [
+      "各种各样"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0248",
+    "initial": "Y",
+    "word": "引人注目",
+    "pinyin": "yǐn rén zhù mù",
+    "explanation": "引起人的注意。",
+    "source": "",
+    "story": "",
+    "example": "她穿的红裙子十分引人注目。",
+    "synonym": [
+      "惹人注意"
+    ],
+    "antonym": [
+      "无人问津"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0249",
+    "initial": "Q",
+    "word": "勤学好问",
+    "pinyin": "qín xué hǎo wèn",
+    "explanation": "勤奋学习，不懂就问。",
+    "source": "",
+    "story": "",
+    "example": "他勤学好问，成绩一直很好。",
+    "synonym": [
+      "好学不倦"
+    ],
+    "antonym": [
+      "不学无术"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0250",
+    "initial": "B",
+    "word": "博采众长",
+    "pinyin": "bó cǎi zhòng cháng",
+    "explanation": "广泛吸取各家的长处。",
+    "source": "",
+    "story": "",
+    "example": "设计要博采众长，才能出新。",
+    "synonym": [
+      "集思广益"
+    ],
+    "antonym": [
+      "刚愎自用"
+    ],
+    "tags": [
+      "常用",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0251",
+    "initial": "Y",
+    "word": "一举成名",
+    "pinyin": "yī jǔ chéng míng",
+    "explanation": "原指科举中第，后指一下子出了名。",
+    "source": "",
+    "story": "",
+    "example": "这部电影让他一举成名。",
+    "synonym": [
+      "一鸣惊人"
+    ],
+    "antonym": [
+      "默默无闻"
+    ],
+    "tags": [
+      "常用",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0252",
+    "initial": "Z",
+    "word": "走马观花",
+    "pinyin": "zǒu mǎ guān huā",
+    "explanation": "比喻粗略地观察事物。",
+    "source": "孟郊《登科后》",
+    "story": "孟郊中进士后写诗“春风得意马蹄疾，一日看尽长安花”，后人用以形容看得不细。",
+    "example": "参观要走心，不能走马观花。",
+    "synonym": [
+      "浮光掠影"
+    ],
+    "antonym": [
+      "入木三分"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0253",
+    "initial": "W",
+    "word": "望子成龙",
+    "pinyin": "wàng zi chéng lóng",
+    "explanation": "希望子女成才。",
+    "source": "",
+    "story": "",
+    "example": "父母望子成龙，可以理解。",
+    "synonym": [],
+    "antonym": [],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0254",
+    "initial": "J",
+    "word": "金玉良言",
+    "pinyin": "jīn yù liáng yán",
+    "explanation": "比喻宝贵的劝告。",
+    "source": "",
+    "story": "",
+    "example": "老师的话真是金玉良言。",
+    "synonym": [
+      "良言警句"
+    ],
+    "antonym": [
+      "花言巧语"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "小学"
+  },
+  {
+    "id": "idiom-0255",
+    "initial": "Y",
+    "word": "一筹莫展",
+    "pinyin": "yī chóu mò zhǎn",
+    "explanation": "一点计策也施展不出，一点办法也没有。",
+    "source": "",
+    "story": "",
+    "example": "面对难题，他一筹莫展。",
+    "synonym": [
+      "束手无策"
+    ],
+    "antonym": [
+      "胸有成竹"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0256",
+    "initial": "Y",
+    "word": "一蹶不振",
+    "pinyin": "yī jué bù zhèn",
+    "explanation": "比喻遭受挫折后再也振作不起来。",
+    "source": "",
+    "story": "",
+    "example": "一次失败不算什么，别一蹶不振。",
+    "synonym": [
+      "萎靡不振"
+    ],
+    "antonym": [
+      "枯木逢春"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0257",
+    "initial": "Y",
+    "word": "一曝十寒",
+    "pinyin": "yī pù shí hán",
+    "explanation": "比喻学习或工作没有恒心，努力少、荒废多。",
+    "source": "《孟子》",
+    "story": "孟子说，即使最易活的植物，晒一天冻十天也长不好，劝人持之以恒。",
+    "example": "学语言贵在坚持，不可一曝十寒。",
+    "synonym": [
+      "三心二意"
+    ],
+    "antonym": [
+      "持之以恒"
+    ],
+    "tags": [
+      "寓言",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0258",
+    "initial": "Y",
+    "word": "一视同仁",
+    "pinyin": "yī shì tóng rén",
+    "explanation": "对人同样看待，不分厚薄。",
+    "source": "韩愈文",
+    "story": "韩愈说圣人对待万物一视同仁，不偏不倚。",
+    "example": "老师对每个学生都一视同仁。",
+    "synonym": [
+      "等量齐观"
+    ],
+    "antonym": [
+      "厚此薄彼"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0259",
+    "initial": "Y",
+    "word": "一意孤行",
+    "pinyin": "yī yì gū xíng",
+    "explanation": "不接受别人的劝告，顽固地照自己的意思做。",
+    "source": "",
+    "story": "",
+    "example": "他一意孤行，最终吃了大亏。",
+    "synonym": [
+      "独断专行"
+    ],
+    "antonym": [
+      "虚怀若谷"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0260",
+    "initial": "R",
+    "word": "入不敷出",
+    "pinyin": "rù bù fū chū",
+    "explanation": "收入不够开支。",
+    "source": "",
+    "story": "",
+    "example": "开销太大，弄得入不敷出。",
+    "synonym": [
+      "捉襟见肘"
+    ],
+    "antonym": [
+      "绰绰有余"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0261",
+    "initial": "L",
+    "word": "力不从心",
+    "pinyin": "lì bù cóng xīn",
+    "explanation": "心里想做，可力量够不上。",
+    "source": "《后汉书》",
+    "story": "班超年老上书，说自己精力衰减，报国“力不从心”。",
+    "example": "年纪大了，做事常有力不从心之感。",
+    "synonym": [
+      "心有余而力不足"
+    ],
+    "antonym": [
+      "得心应手"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0262",
+    "initial": "W",
+    "word": "万籁俱寂",
+    "pinyin": "wàn lài jù jì",
+    "explanation": "形容四周非常安静。",
+    "source": "常建《题破山寺后禅院》",
+    "story": "诗人写清晨古寺，万物声响都静下来，只余钟磬之声。",
+    "example": "深夜的山村万籁俱寂。",
+    "synonym": [
+      "鸦雀无声"
+    ],
+    "antonym": [
+      "人声鼎沸"
+    ],
+    "tags": [
+      "常用",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0263",
+    "initial": "X",
+    "word": "小心翼翼",
+    "pinyin": "xiǎo xīn yì yì",
+    "explanation": "形容举动十分谨慎，丝毫不敢疏忽。",
+    "source": "《诗经》",
+    "story": "诗中赞文王行事小心恭敬，不敢懈怠。",
+    "example": "他小心翼翼地捧着花瓶。",
+    "synonym": [
+      "谨小慎微"
+    ],
+    "antonym": [
+      "粗心大意"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0264",
+    "initial": "S",
+    "word": "三令五申",
+    "pinyin": "sān lìng wǔ shēn",
+    "explanation": "多次命令和告诫。",
+    "source": "《史记》",
+    "story": "孙武练兵，反复三令五申军法，宫女仍笑，便依军法处置，阵法立整。",
+    "example": "老师三令五申，不许迟到。",
+    "synonym": [
+      "千叮万嘱"
+    ],
+    "antonym": [],
+    "tags": [
+      "历史",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0265",
+    "initial": "B",
+    "word": "不期而遇",
+    "pinyin": "bù qī ér yù",
+    "explanation": "没有约定而意外相遇。",
+    "source": "",
+    "story": "",
+    "example": "没想到在异乡与他不期而遇。",
+    "synonym": [
+      "不期而会"
+    ],
+    "antonym": [
+      "失之交臂"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0266",
+    "initial": "B",
+    "word": "不遗余力",
+    "pinyin": "bù yí yú lì",
+    "explanation": "把全部力量都使出来，一点不保留。",
+    "source": "《战国策》",
+    "story": "赵国说秦国攻赵不遗余力，劝各国援赵。",
+    "example": "他为球队不遗余力。",
+    "synonym": [
+      "全力以赴"
+    ],
+    "antonym": [
+      "留有余地"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0267",
+    "initial": "B",
+    "word": "不约而同",
+    "pinyin": "bù yuē ér tóng",
+    "explanation": "没有事先约定而彼此行动一致。",
+    "source": "",
+    "story": "",
+    "example": "大家不约而同地鼓起掌来。",
+    "synonym": [
+      "不谋而合"
+    ],
+    "antonym": [
+      "各行其是"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0268",
+    "initial": "Z",
+    "word": "中流砥柱",
+    "pinyin": "zhōng liú dǐ zhù",
+    "explanation": "比喻坚强独立的人能在动荡艰难的环境中起支柱作用。",
+    "source": "《晏子春秋》",
+    "story": "古人以黄河中流的砥柱山比喻危难中屹立不动的支柱。",
+    "example": "他是团队里的中流砥柱。",
+    "synonym": [
+      "定海神针"
+    ],
+    "antonym": [],
+    "tags": [
+      "历史",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0269",
+    "initial": "J",
+    "word": "见异思迁",
+    "pinyin": "jiàn yì sī qiān",
+    "explanation": "看见别的事物就想改变原来的主意；指意志不坚定。",
+    "source": "《管子》",
+    "story": "古人说治学如培养树木，不可见异思迁，朝三暮四。",
+    "example": "做学问不能见异思迁。",
+    "synonym": [
+      "三心二意"
+    ],
+    "antonym": [
+      "矢志不渝"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0270",
+    "initial": "F",
+    "word": "分道扬镳",
+    "pinyin": "fēn dào yáng biāo",
+    "explanation": "比喻目标不同，各走各的路。",
+    "source": "《魏书》",
+    "story": "北魏洛阳令与京兆人各走一路，说“从此分路扬镳”，后指分手。",
+    "example": "两人理念不合，终于分道扬镳。",
+    "synonym": [
+      "各奔前程"
+    ],
+    "antonym": [
+      "志同道合"
+    ],
+    "tags": [
+      "常用",
+      "历史"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0271",
+    "initial": "S",
+    "word": "水落石出",
+    "pinyin": "shuǐ luò shí chū",
+    "explanation": "比喻事情真相完全显露。",
+    "source": "苏轼文",
+    "story": "苏轼夜游赤壁，见水位退去、石头显露，写下“水落石出”。",
+    "example": "真相迟早会水落石出。",
+    "synonym": [
+      "真相大白"
+    ],
+    "antonym": [
+      "扑朔迷离"
+    ],
+    "tags": [
+      "常用",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0272",
+    "initial": "T",
+    "word": "叹为观止",
+    "pinyin": "tàn wéi guān zhǐ",
+    "explanation": "赞美所见事物好到极点。",
+    "source": "《左传》",
+    "story": "吴国季札观周乐，看到尽善尽美处，说“观止矣”，意即看到这里就够了。",
+    "example": "这场演出令人叹为观止。",
+    "synonym": [
+      "拍案叫绝"
+    ],
+    "antonym": [
+      "不堪入目"
+    ],
+    "tags": [
+      "常用",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0273",
+    "initial": "P",
+    "word": "扑朔迷离",
+    "pinyin": "pū shuò mí lí",
+    "explanation": "形容事情错综复杂，难于辨别清楚。",
+    "source": "《木兰诗》",
+    "story": "《木兰诗》写雄兔雌兔“扑朔迷离”，难分雌雄，后喻事物复杂。",
+    "example": "案情扑朔迷离，一时难断。",
+    "synonym": [
+      "错综复杂"
+    ],
+    "antonym": [
+      "一目了然"
+    ],
+    "tags": [
+      "寓言",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0274",
+    "initial": "M",
+    "word": "目光如炬",
+    "pinyin": "mù guāng rú jù",
+    "explanation": "眼光锐利，见识远大。",
+    "source": "《南史》",
+    "story": "形容人目光明亮如火炬，能洞察一切。",
+    "example": "他目光如炬，一眼看穿骗局。",
+    "synonym": [
+      "明察秋毫"
+    ],
+    "antonym": [
+      "鼠目寸光"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0275",
+    "initial": "E",
+    "word": "耳濡目染",
+    "pinyin": "ěr rú mù rǎn",
+    "explanation": "耳朵经常听到，眼睛经常看到，不知不觉受到影响。",
+    "source": "韩愈文",
+    "story": "韩愈说人在良好环境中耳濡目染，不学也能会。",
+    "example": "在书香门第中耳濡目染，他也爱上了读书。",
+    "synonym": [
+      "潜移默化"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0276",
+    "initial": "H",
+    "word": "回味无穷",
+    "pinyin": "huí wèi wú qióng",
+    "explanation": "事后回想起来越觉得有意思。",
+    "source": "",
+    "story": "",
+    "example": "这首曲子余音袅袅，令人回味无穷。",
+    "synonym": [
+      "耐人寻味"
+    ],
+    "antonym": [
+      "索然无味"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0277",
+    "initial": "Z",
+    "word": "自惭形秽",
+    "pinyin": "zì cán xíng huì",
+    "explanation": "因自己不如别人而感到惭愧。",
+    "source": "《世说新语》",
+    "story": "卫玠风采出众，骠骑王济自叹“珠玉在侧，觉我形秽”。",
+    "example": "站在冠军身旁，我不禁自惭形秽。",
+    "synonym": [
+      "妄自菲薄"
+    ],
+    "antonym": [
+      "自命不凡"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0278",
+    "initial": "A",
+    "word": "安然无恙",
+    "pinyin": "ān rán wú yàng",
+    "explanation": "原指人平安没有疾病，后指平平安安没有受到任何损伤。",
+    "source": "",
+    "story": "",
+    "example": "经历风雨，小树竟安然无恙。",
+    "synonym": [
+      "平安无事"
+    ],
+    "antonym": [
+      "九死一生"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0279",
+    "initial": "M",
+    "word": "名副其实",
+    "pinyin": "míng fù qí shí",
+    "explanation": "名称或名声与实际相符合。",
+    "source": "",
+    "story": "",
+    "example": "他是个名副其实的好医生。",
+    "synonym": [
+      "名符其实"
+    ],
+    "antonym": [
+      "徒有虚名"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0280",
+    "initial": "G",
+    "word": "各行其是",
+    "pinyin": "gè xíng qí shì",
+    "explanation": "各人按照自己认为对的去做，不互相配合。",
+    "source": "",
+    "story": "",
+    "example": "大家各行其是，事情就乱了。",
+    "synonym": [
+      "各自为政"
+    ],
+    "antonym": [
+      "同心协力"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0281",
+    "initial": "R",
+    "word": "如释重负",
+    "pinyin": "rú shì zhòng fù",
+    "explanation": "像放下重担那样轻松。",
+    "source": "《谷梁传》",
+    "story": "鲁昭公逃亡后，百姓如释重负，松了一口气。",
+    "example": "交完试卷，他如释重负地叹了口气。",
+    "synonym": [
+      "轻装上阵"
+    ],
+    "antonym": [
+      "如牛负重"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0282",
+    "initial": "J",
+    "word": "匠心独运",
+    "pinyin": "jiàng xīn dú yùn",
+    "explanation": "形容独特的艺术构思。",
+    "source": "",
+    "story": "",
+    "example": "这座园林匠心独运，别具一格。",
+    "synonym": [
+      "别具匠心"
+    ],
+    "antonym": [
+      "因循守旧"
+    ],
+    "tags": [
+      "常用",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0283",
+    "initial": "R",
+    "word": "任人唯贤",
+    "pinyin": "rèn rén wéi xián",
+    "explanation": "任用才德兼备的人，不论亲疏。",
+    "source": "",
+    "story": "",
+    "example": "企业兴旺要靠任人唯贤。",
+    "synonym": [
+      "唯才是举"
+    ],
+    "antonym": [
+      "任人唯亲"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0284",
+    "initial": "C",
+    "word": "吹毛求疵",
+    "pinyin": "chuī máo qiú cī",
+    "explanation": "比喻故意挑剔毛病，寻找差错。",
+    "source": "《韩非子》",
+    "story": "韩非子说治国不必“不吹毛而求小疵”，意即不要苛责小事。",
+    "example": "对同事别吹毛求疵。",
+    "synonym": [
+      "鸡蛋里挑骨头"
+    ],
+    "antonym": [
+      "宽宏大量"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0285",
+    "initial": "Z",
+    "word": "孜孜不倦",
+    "pinyin": "zī zī bù juàn",
+    "explanation": "勤奋努力，不知疲倦。",
+    "source": "",
+    "story": "",
+    "example": "他孜孜不倦地钻研技术。",
+    "synonym": [
+      "孜孜以求"
+    ],
+    "antonym": [
+      "游手好闲"
+    ],
+    "tags": [
+      "常用",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0286",
+    "initial": "L",
+    "word": "良师益友",
+    "pinyin": "liáng shī yì yǒu",
+    "explanation": "使人得到教益和帮助的好老师、好朋友。",
+    "source": "",
+    "story": "",
+    "example": "这本书是我的良师益友。",
+    "synonym": [],
+    "antonym": [
+      "狐朋狗友"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0287",
+    "initial": "H",
+    "word": "讳疾忌医",
+    "pinyin": "huì jí jì yī",
+    "explanation": "比喻怕人批评而掩饰自己的缺点和错误。",
+    "source": "《扁鹊见蔡桓公》",
+    "story": "蔡桓公患病不肯就医，反复回避，终病入膏肓而死。",
+    "example": "有缺点要改正，不能讳疾忌医。",
+    "synonym": [
+      "文过饰非"
+    ],
+    "antonym": [
+      "闻过则喜"
+    ],
+    "tags": [
+      "历史",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0288",
+    "initial": "C",
+    "word": "层出不穷",
+    "pinyin": "céng chū bù qióng",
+    "explanation": "接连不断地出现，没有穷尽。",
+    "source": "",
+    "story": "",
+    "example": "新发明层出不穷。",
+    "synonym": [
+      "屡见不鲜"
+    ],
+    "antonym": [
+      "寥寥无几"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0289",
+    "initial": "X",
+    "word": "轩然大波",
+    "pinyin": "xuān rán dà bō",
+    "explanation": "比喻大的纠纷或风波。",
+    "source": "",
+    "story": "",
+    "example": "一句话掀起轩然大波。",
+    "synonym": [
+      "大惊小怪"
+    ],
+    "antonym": [
+      "风平浪静"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0290",
+    "initial": "C",
+    "word": "陈词滥调",
+    "pinyin": "chén cí làn diào",
+    "explanation": "陈旧而不切实际的话。",
+    "source": "",
+    "story": "",
+    "example": "他的发言全是陈词滥调。",
+    "synonym": [
+      "老生常谈"
+    ],
+    "antonym": [
+      "真知灼见"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0291",
+    "initial": "D",
+    "word": "顶礼膜拜",
+    "pinyin": "dǐng lǐ mó bài",
+    "explanation": "形容崇拜到极点（多含贬义）。",
+    "source": "",
+    "story": "",
+    "example": "对权威不可盲目顶礼膜拜。",
+    "synonym": [
+      "五体投地"
+    ],
+    "antonym": [
+      "不屑一顾"
+    ],
+    "tags": [
+      "常用",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0292",
+    "initial": "Y",
+    "word": "雨后春笋",
+    "pinyin": "yǔ hòu chūn sǔn",
+    "explanation": "比喻新事物大量涌现。",
+    "source": "",
+    "story": "",
+    "example": "各类小店如雨后春笋般开起来。",
+    "synonym": [
+      "生机勃勃"
+    ],
+    "antonym": [
+      "日薄西山"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0293",
+    "initial": "J",
+    "word": "迥然不同",
+    "pinyin": "jiǒng rán bù tóng",
+    "explanation": "相差很大，明显不一样。",
+    "source": "",
+    "story": "",
+    "example": "两人的性格迥然不同。",
+    "synonym": [
+      "截然不同"
+    ],
+    "antonym": [
+      "大同小异"
+    ],
+    "tags": [
+      "常用",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0294",
+    "initial": "W",
+    "word": "卧虎藏龙",
+    "pinyin": "wò hǔ cáng lóng",
+    "explanation": "比喻潜藏着人才或高手。",
+    "source": "",
+    "story": "",
+    "example": "这所小学卧虎藏龙，人才辈出。",
+    "synonym": [
+      "藏龙卧虎"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0295",
+    "initial": "K",
+    "word": "侃侃而谈",
+    "pinyin": "kǎn kǎn ér tán",
+    "explanation": "理直气壮、从容不迫地说话。",
+    "source": "《论语》",
+    "story": "孔子赞弟子冉有、子贡“侃侃如也”，从容而正直。",
+    "example": "他上台后侃侃而谈，很有底气。",
+    "synonym": [
+      "娓娓而谈"
+    ],
+    "antonym": [
+      "吞吞吐吐"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0296",
+    "initial": "M",
+    "word": "莫名其妙",
+    "pinyin": "mò míng qí miào",
+    "explanation": "说不出其中的奥妙，形容事情奇怪。",
+    "source": "",
+    "story": "",
+    "example": "他莫名其妙地笑了。",
+    "synonym": [
+      "莫明其妙"
+    ],
+    "antonym": [],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0297",
+    "initial": "L",
+    "word": "络绎不绝",
+    "pinyin": "luò yì bù jué",
+    "explanation": "前后相接，连续不断。",
+    "source": "",
+    "story": "",
+    "example": "游客络绎不绝。",
+    "synonym": [
+      "连绵不断"
+    ],
+    "antonym": [
+      "门可罗雀"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0298",
+    "initial": "Z",
+    "word": "字斟句酌",
+    "pinyin": "zì zhēn jù zhuó",
+    "explanation": "写文章或说话时慎重细致，一字一句地推敲。",
+    "source": "",
+    "story": "",
+    "example": "他写稿字斟句酌，十分认真。",
+    "synonym": [
+      "精雕细刻"
+    ],
+    "antonym": [
+      "下笔千言"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0299",
+    "initial": "B",
+    "word": "彬彬有礼",
+    "pinyin": "bīn bīn yǒu lǐ",
+    "explanation": "形容文雅有礼貌。",
+    "source": "《论语》",
+    "story": "孔子说“文质彬彬，然后君子”，指文采与质朴配合得当。",
+    "example": "这孩子待人彬彬有礼。",
+    "synonym": [
+      "温文尔雅"
+    ],
+    "antonym": [
+      "野蛮粗鲁"
+    ],
+    "tags": [
+      "常用",
+      "品德"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0300",
+    "initial": "L",
+    "word": "寥寥无几",
+    "pinyin": "liáo liáo wú jǐ",
+    "explanation": "非常稀少，没有几个。",
+    "source": "",
+    "story": "",
+    "example": "报名的人寥寥无几。",
+    "synonym": [
+      "屈指可数"
+    ],
+    "antonym": [
+      "数不胜数"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0301",
+    "initial": "D",
+    "word": "殚精竭虑",
+    "pinyin": "dān jīng jié lǜ",
+    "explanation": "用尽精力，费尽心思。",
+    "source": "",
+    "story": "",
+    "example": "他殚精竭虑，终于攻克难关。",
+    "synonym": [
+      "处心积虑"
+    ],
+    "antonym": [
+      "敷衍塞责"
+    ],
+    "tags": [
+      "常用",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0302",
+    "initial": "D",
+    "word": "等闲视之",
+    "pinyin": "děng xián shì zhī",
+    "explanation": "把它看成平常的事，不予重视。",
+    "source": "",
+    "story": "",
+    "example": "安全问题不能等闲视之。",
+    "synonym": [
+      "掉以轻心"
+    ],
+    "antonym": [
+      "小题大做"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0303",
+    "initial": "L",
+    "word": "鳞次栉比",
+    "pinyin": "lín cì zhì bǐ",
+    "explanation": "形容房屋或船只等排列得很密很整齐。",
+    "source": "",
+    "story": "",
+    "example": "江边高楼鳞次栉比。",
+    "synonym": [
+      "密密麻麻"
+    ],
+    "antonym": [
+      "稀稀落落"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0304",
+    "initial": "X",
+    "word": "相辅相成",
+    "pinyin": "xiāng fǔ xiāng chéng",
+    "explanation": "两件事物互相配合，互相补充，缺一不可。",
+    "source": "",
+    "story": "",
+    "example": "教与学相辅相成。",
+    "synonym": [
+      "相得益彰"
+    ],
+    "antonym": [
+      "水火不容"
+    ],
+    "tags": [
+      "常用",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "初中"
+  },
+  {
+    "id": "idiom-0305",
+    "initial": "P",
+    "word": "否极泰来",
+    "pinyin": "pǐ jí tài lái",
+    "explanation": "坏到极点就会向好的方向转化。",
+    "source": "《周易》",
+    "story": "《周易》以“否”“泰”两卦象征闭塞与通达，否运尽了，泰运就来。",
+    "example": "别灰心，否极泰来，转机就在眼前。",
+    "synonym": [
+      "苦尽甘来"
+    ],
+    "antonym": [
+      "乐极生悲"
+    ],
+    "tags": [
+      "哲理",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0306",
+    "initial": "T",
+    "word": "韬光养晦",
+    "pinyin": "tāo guāng yǎng huì",
+    "explanation": "比喻隐藏才能，不使外露，以待将来。",
+    "source": "",
+    "story": "",
+    "example": "年轻时不妨韬光养晦，厚积薄发。",
+    "synonym": [
+      "藏器待时"
+    ],
+    "antonym": [
+      "锋芒毕露"
+    ],
+    "tags": [
+      "哲理",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0307",
+    "initial": "Z",
+    "word": "钟灵毓秀",
+    "pinyin": "zhōng líng yù xiù",
+    "explanation": "凝聚了天地间的灵气，孕育着优秀的人物。",
+    "source": "",
+    "story": "",
+    "example": "江南水乡钟灵毓秀，人才辈出。",
+    "synonym": [
+      "人杰地灵"
+    ],
+    "antonym": [],
+    "tags": [
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0308",
+    "initial": "B",
+    "word": "筚路蓝缕",
+    "pinyin": "bì lù lán lǚ",
+    "explanation": "形容创业的艰苦。",
+    "source": "《左传》",
+    "story": "楚国人驾柴车、穿破衣，开垦山林，开创基业，后称创业艰难。",
+    "example": "先辈筚路蓝缕，才有今日基业。",
+    "synonym": [
+      "披荆斩棘"
+    ],
+    "antonym": [
+      "坐享其成"
+    ],
+    "tags": [
+      "历史",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0309",
+    "initial": "H",
+    "word": "沆瀣一气",
+    "pinyin": "hàng xiè yī qì",
+    "explanation": "比喻臭味相投的人结合在一起。",
+    "source": "《南部新书》",
+    "story": "唐人崔沆考官，取中崔瀣，时人讥“座主门生，沆瀣一气”。",
+    "example": "贪官与奸商沆瀣一气，终被查处。",
+    "synonym": [
+      "狼狈为奸"
+    ],
+    "antonym": [
+      "泾渭分明"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0310",
+    "initial": "H",
+    "word": "怙恶不悛",
+    "pinyin": "hù è bù quān",
+    "explanation": "坚持作恶，不肯悔改。",
+    "source": "",
+    "story": "",
+    "example": "对怙恶不悛的歹徒，必须严惩。",
+    "synonym": [
+      "执迷不悟"
+    ],
+    "antonym": [
+      "改邪归正"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0311",
+    "initial": "Y",
+    "word": "饮鸩止渴",
+    "pinyin": "yǐn zhèn zhǐ kě",
+    "explanation": "用毒酒解渴，比喻用错误办法解决眼前困难而不顾严重后果。",
+    "source": "《后汉书》",
+    "story": "古人谏言，譬如渴而饮鸩，未入肠胃已绝咽喉，喻急功近利之祸。",
+    "example": "借高利贷还债，无异于饮鸩止渴。",
+    "synonym": [
+      "竭泽而渔"
+    ],
+    "antonym": [
+      "从长计议"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0312",
+    "initial": "B",
+    "word": "暴殄天物",
+    "pinyin": "bào tiǎn tiān wù",
+    "explanation": "任意糟蹋东西。",
+    "source": "《尚书》",
+    "story": "《尚书》告诫不可“暴殄天物”，虐待百姓、糟蹋物资都是大罪。",
+    "example": "请客点太多菜吃不完，是暴殄天物。",
+    "synonym": [
+      "挥霍无度"
+    ],
+    "antonym": [
+      "精打细算"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0313",
+    "initial": "F",
+    "word": "繁文缛节",
+    "pinyin": "fán wén rù jié",
+    "explanation": "过分繁琐的仪式或礼节；也比喻繁琐多余的手续。",
+    "source": "",
+    "story": "",
+    "example": "办事要简便，别搞繁文缛节。",
+    "synonym": [
+      "苛捐杂税"
+    ],
+    "antonym": [
+      "删繁就简"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0314",
+    "initial": "G",
+    "word": "蛊惑人心",
+    "pinyin": "gǔ huò rén xīn",
+    "explanation": "用欺骗引诱的手段迷惑人，扰乱人的思想。",
+    "source": "",
+    "story": "",
+    "example": "要警惕谣言蛊惑人心。",
+    "synonym": [
+      "造谣惑众"
+    ],
+    "antonym": [],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0315",
+    "initial": "Q",
+    "word": "罄竹难书",
+    "pinyin": "qìng zhú nán shū",
+    "explanation": "形容罪行多得写不完。",
+    "source": "《旧唐书》",
+    "story": "古人说南山之竹尽以为简，也写不完其罪，后喻罪恶极多。",
+    "example": "侵略者的暴行罄竹难书。",
+    "synonym": [
+      "罪恶滔天"
+    ],
+    "antonym": [
+      "丰功伟绩"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0316",
+    "initial": "L",
+    "word": "李代桃僵",
+    "pinyin": "lǐ dài táo jiāng",
+    "explanation": "比喻以此代彼或代人受过。",
+    "source": "古乐府",
+    "story": "古乐府“桃生露井上，李树代桃僵”，写桃李相依，李代桃受虫蛀。",
+    "example": "为保全大局，他李代桃僵，替人顶罪。",
+    "synonym": [
+      "代人受过"
+    ],
+    "antonym": [],
+    "tags": [
+      "哲理",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0317",
+    "initial": "F",
+    "word": "焚膏继晷",
+    "pinyin": "fén gāo jì guǐ",
+    "explanation": "形容夜以继日地勤奋学习、工作。",
+    "source": "韩愈文",
+    "story": "韩愈自述“焚膏油以继晷”，点灯接替日光，终年苦读。",
+    "example": "他焚膏继晷，终成学者。",
+    "synonym": [
+      "夜以继日"
+    ],
+    "antonym": [
+      "游手好闲"
+    ],
+    "tags": [
+      "励志",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0318",
+    "initial": "H",
+    "word": "毁家纾难",
+    "pinyin": "huǐ jiā shū nàn",
+    "explanation": "捐献全部家产，帮助国家减轻困难。",
+    "source": "",
+    "story": "",
+    "example": "抗战时许多华侨毁家纾难。",
+    "synonym": [
+      "倾家荡产"
+    ],
+    "antonym": [],
+    "tags": [
+      "品德",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0319",
+    "initial": "J",
+    "word": "胶柱鼓瑟",
+    "pinyin": "jiāo zhù gǔ sè",
+    "explanation": "比喻固执拘泥，不知变通。",
+    "source": "《史记》",
+    "story": "有人鼓瑟时粘死琴柱，无法调音，比喻死板不知变通。",
+    "example": "办事要灵活，不能胶柱鼓瑟。",
+    "synonym": [
+      "刻舟求剑"
+    ],
+    "antonym": [
+      "随机应变"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0320",
+    "initial": "L",
+    "word": "老生常谈",
+    "pinyin": "lǎo shēng cháng tán",
+    "explanation": "老书生的平凡议论，比喻听惯了的没有新意的话。",
+    "source": "《三国志》",
+    "story": "三国管辂说某些道理不过是“老生之常谈”，后指陈词滥调。",
+    "example": "道理虽是老生常谈，却句句是真。",
+    "synonym": [
+      "陈词滥调"
+    ],
+    "antonym": [
+      "真知灼见"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0321",
+    "initial": "M",
+    "word": "沐猴而冠",
+    "pinyin": "mù hóu ér guàn",
+    "explanation": "比喻虚有其表，形同傀儡；常讽刺徒具衣冠而无品格的人。",
+    "source": "《史记》",
+    "story": "项羽入咸阳后烧杀，人称“楚人沐猴而冠”，言其虚有威仪而无远谋。",
+    "example": "他肚里没货，不过是沐猴而冠。",
+    "synonym": [
+      "徒有其表"
+    ],
+    "antonym": [
+      "德才兼备"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0322",
+    "initial": "N",
+    "word": "奴颜婢膝",
+    "pinyin": "nú yán bì xī",
+    "explanation": "形容谄媚讨好别人的卑劣相。",
+    "source": "",
+    "story": "",
+    "example": "做人要有骨气，不能奴颜婢膝。",
+    "synonym": [
+      "卑躬屈膝"
+    ],
+    "antonym": [
+      "刚正不阿"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0323",
+    "initial": "S",
+    "word": "色厉内荏",
+    "pinyin": "sè lì nèi rěn",
+    "explanation": "外表强硬，内心虚弱。",
+    "source": "《论语》",
+    "story": "孔子说“色厉而内荏”，小人外表严厉，内里怯懦。",
+    "example": "他色厉内荏，其实很心虚。",
+    "synonym": [
+      "外强中干"
+    ],
+    "antonym": [
+      "表里如一"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0324",
+    "initial": "S",
+    "word": "师心自用",
+    "pinyin": "shī xīn zì yòng",
+    "explanation": "形容自以为是，不肯接受别人的正确意见。",
+    "source": "",
+    "story": "",
+    "example": "做学问不可师心自用。",
+    "synonym": [
+      "刚愎自用"
+    ],
+    "antonym": [
+      "虚怀若谷"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0325",
+    "initial": "T",
+    "word": "恬不知耻",
+    "pinyin": "tián bù zhī chǐ",
+    "explanation": "做了坏事满不在乎，一点儿也不感到羞耻。",
+    "source": "",
+    "story": "",
+    "example": "他犯了错还恬不知耻地狡辩。",
+    "synonym": [
+      "厚颜无耻"
+    ],
+    "antonym": [
+      "知廉知耻"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0326",
+    "initial": "T",
+    "word": "投鼠忌器",
+    "pinyin": "tóu shǔ jì qì",
+    "explanation": "想打老鼠又怕打坏旁边器物，比喻做事有所顾忌。",
+    "source": "《汉书》",
+    "story": "古人说打鼠怕砸坏器物，比喻惩治坏人怕伤及相关的人或事。",
+    "example": "处理亲属问题，常投鼠忌器。",
+    "synonym": [
+      "畏首畏尾"
+    ],
+    "antonym": [
+      "肆无忌惮"
+    ],
+    "tags": [
+      "哲理",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0327",
+    "initial": "W",
+    "word": "尾大不掉",
+    "pinyin": "wěi dà bù diào",
+    "explanation": "比喻机构庞大，指挥不灵。",
+    "source": "《左传》",
+    "story": "古人说“末大必折，尾大不掉”，树枝太粗会断，尾巴太大摆不动。",
+    "example": "分公司权力过大，难免尾大不掉。",
+    "synonym": [
+      "各自为政"
+    ],
+    "antonym": [
+      "如臂使指"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0328",
+    "initial": "W",
+    "word": "文过饰非",
+    "pinyin": "wén guò shì fēi",
+    "explanation": "用漂亮的言辞掩饰自己的过失和错误。",
+    "source": "",
+    "story": "",
+    "example": "有错就改，不要文过饰非。",
+    "synonym": [
+      "讳疾忌医"
+    ],
+    "antonym": [
+      "闻过则喜"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0329",
+    "initial": "X",
+    "word": "宵衣旰食",
+    "pinyin": "xiāo yī gàn shí",
+    "explanation": "天不亮就穿衣起来，天黑才吃饭，形容勤于政务或事务。",
+    "source": "《旧唐书》",
+    "story": "史书赞帝王“宵衣旰食”，早起晚食，勤于国事。",
+    "example": "周总理宵衣旰食，为国操劳。",
+    "synonym": [
+      "夙兴夜寐"
+    ],
+    "antonym": [
+      "醉生梦死"
+    ],
+    "tags": [
+      "品德",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0330",
+    "initial": "Y",
+    "word": "一蹴而就",
+    "pinyin": "yí cù ér jiù",
+    "explanation": "踏一步就成功，比喻事情轻而易举，一下子就成功。",
+    "source": "",
+    "story": "",
+    "example": "学问不是一蹴而就的。",
+    "synonym": [
+      "一举成功"
+    ],
+    "antonym": [
+      "水滴石穿"
+    ],
+    "tags": [
+      "劝诫",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0331",
+    "initial": "Y",
+    "word": "颐指气使",
+    "pinyin": "yí zhǐ qì shǐ",
+    "explanation": "不说话而用面部表情示意，形容有权势的人指挥别人的傲慢态度。",
+    "source": "",
+    "story": "",
+    "example": "他当了官便颐指气使，令人反感。",
+    "synonym": [
+      "盛气凌人"
+    ],
+    "antonym": [
+      "平易近人"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0332",
+    "initial": "Y",
+    "word": "越俎代庖",
+    "pinyin": "yuè zǔ dài páo",
+    "explanation": "比喻超出自己业务范围去处理别人所管的事。",
+    "source": "《庄子》",
+    "story": "《庄子》说厨子虽不做饭，祭祀官也不越权去替他煮，喻各司其职。",
+    "example": "你是教练，别越俎代庖替队员上场。",
+    "synonym": [
+      "包办代替"
+    ],
+    "antonym": [
+      "各司其职"
+    ],
+    "tags": [
+      "哲理",
+      "智慧"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0333",
+    "initial": "Z",
+    "word": "昭然若揭",
+    "pinyin": "zhāo rán ruò jiē",
+    "explanation": "形容真相全部暴露，一切都明明白白。",
+    "source": "《庄子》",
+    "story": "《庄子》写“昭昭乎若揭日月而行”，后喻真相大白。",
+    "example": "他的野心昭然若揭。",
+    "synonym": [
+      "暴露无遗"
+    ],
+    "antonym": [
+      "高深莫测"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0334",
+    "initial": "Z",
+    "word": "钟鸣鼎食",
+    "pinyin": "zhōng míng dǐng shí",
+    "explanation": "击钟列鼎而食，形容富贵人家生活奢侈豪华。",
+    "source": "《史记》",
+    "story": "古人写“钟鸣鼎食之家”，形容世家大族排场奢华。",
+    "example": "诗中描写了钟鸣鼎食的贵族生活。",
+    "synonym": [
+      "锦衣玉食"
+    ],
+    "antonym": [
+      "粗茶淡饭"
+    ],
+    "tags": [
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0335",
+    "initial": "Z",
+    "word": "众口铄金",
+    "pinyin": "zhòng kǒu shuò jīn",
+    "explanation": "众口一词，连金属都能熔化，比喻舆论力量大，也比喻谣言多使人受毁。",
+    "source": "《国语》",
+    "story": "《国语》说“众口铄金，积毁销骨”，流言反复可毁人。",
+    "example": "众口铄金，积毁销骨，流言可畏。",
+    "synonym": [
+      "人言可畏"
+    ],
+    "antonym": [
+      "口碑载道"
+    ],
+    "tags": [
+      "劝诫",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0336",
+    "initial": "Z",
+    "word": "捉襟见肘",
+    "pinyin": "zhuō jīn jiàn zhǒu",
+    "explanation": "拉一下衣襟就露出胳膊肘，形容衣服破烂；比喻顾此失彼，穷于应付。",
+    "source": "《庄子》",
+    "story": "《庄子》写贫士“捉襟而肘见”，衣不蔽体，后喻处境窘迫。",
+    "example": "开支猛增，弄得捉襟见肘。",
+    "synonym": [
+      "顾此失彼"
+    ],
+    "antonym": [
+      "游刃有余"
+    ],
+    "tags": [
+      "劝诫",
+      "哲理"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0337",
+    "initial": "Z",
+    "word": "擢发难数",
+    "pinyin": "zhuó fà nán shǔ",
+    "explanation": "拔下头发来数也数不清，形容罪行极多。",
+    "source": "《史记》",
+    "story": "《史记》写欲数某人之罪，“擢贾之发”犹不足，言其恶多。",
+    "example": "贪官劣迹擢发难数。",
+    "synonym": [
+      "罄竹难书"
+    ],
+    "antonym": [
+      "寥寥可数"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0338",
+    "initial": "M",
+    "word": "秣马厉兵",
+    "pinyin": "mò mǎ lì bīng",
+    "explanation": "磨好兵器，喂好马，形容准备战斗。",
+    "source": "《左传》",
+    "story": "古人“秣马厉兵，整甲缮兵”，喂饱马、磨快刀，准备迎敌。",
+    "example": "球队秣马厉兵，备战决赛。",
+    "synonym": [
+      "严阵以待"
+    ],
+    "antonym": [
+      "解甲归田"
+    ],
+    "tags": [
+      "历史",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0339",
+    "initial": "F",
+    "word": "方兴未艾",
+    "pinyin": "fāng xīng wèi ài",
+    "explanation": "事物正在发展，一时不会终止。",
+    "source": "",
+    "story": "",
+    "example": "新能源产业方兴未艾。",
+    "synonym": [
+      "蒸蒸日上"
+    ],
+    "antonym": [
+      "日暮途穷"
+    ],
+    "tags": [
+      "哲理",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0340",
+    "initial": "Z",
+    "word": "栉风沐雨",
+    "pinyin": "zhì fēng mù yǔ",
+    "explanation": "形容人经常在外面不顾风雨地辛苦奔波。",
+    "source": "《庄子》",
+    "story": "《庄子》写“沐甚雨，栉疾风”，以雨洗头、以风梳发，形容劳苦。",
+    "example": "考察队栉风沐雨，终获成果。",
+    "synonym": [
+      "风餐露宿"
+    ],
+    "antonym": [
+      "养尊处优"
+    ],
+    "tags": [
+      "励志",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0341",
+    "initial": "C",
+    "word": "踌躇满志",
+    "pinyin": "chóu chú mǎn zhì",
+    "explanation": "形容对自己取得的成就非常得意。",
+    "source": "《庄子》",
+    "story": "《庄子》写庖丁解牛后“为之踌躇满志”，从容自得。",
+    "example": "他完成任务后踌躇满志。",
+    "synonym": [
+      "洋洋得意"
+    ],
+    "antonym": [
+      "垂头丧气"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0342",
+    "initial": "S",
+    "word": "莘莘学子",
+    "pinyin": "shēn shēn xué zǐ",
+    "explanation": "众多的学生。",
+    "source": "",
+    "story": "",
+    "example": "莘莘学子寒窗苦读。",
+    "synonym": [],
+    "antonym": [],
+    "tags": [
+      "常用",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0343",
+    "initial": "Z",
+    "word": "惴惴不安",
+    "pinyin": "zhuì zhuì bù ān",
+    "explanation": "形容因害怕或担忧而心神不定。",
+    "source": "",
+    "story": "",
+    "example": "等待判决的日子里，他惴惴不安。",
+    "synonym": [
+      "忐忑不安"
+    ],
+    "antonym": [
+      "坦然自若"
+    ],
+    "tags": [
+      "常用",
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0344",
+    "initial": "B",
+    "word": "不落窠臼",
+    "pinyin": "bù luò kē jiù",
+    "explanation": "比喻有独创风格，不落俗套。",
+    "source": "",
+    "story": "",
+    "example": "这部作品构思不落窠臼。",
+    "synonym": [
+      "别具一格"
+    ],
+    "antonym": [
+      "陈陈相因"
+    ],
+    "tags": [
+      "智慧",
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0345",
+    "initial": "B",
+    "word": "不刊之论",
+    "pinyin": "bù kān zhī lùn",
+    "explanation": "不可更改的言论，形容论断或意见非常正确。",
+    "source": "",
+    "story": "",
+    "example": "他的观点实是不刊之论。",
+    "synonym": [
+      "不易之论"
+    ],
+    "antonym": [
+      "无稽之谈"
+    ],
+    "tags": [
+      "文化"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0346",
+    "initial": "C",
+    "word": "差强人意",
+    "pinyin": "chā qiáng rén yì",
+    "explanation": "大体上还能使人满意。",
+    "source": "",
+    "story": "",
+    "example": "这次表现虽不完美，却也差强人意。",
+    "synonym": [
+      "尚堪告慰"
+    ],
+    "antonym": [
+      "大失所望"
+    ],
+    "tags": [
+      "常用"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0347",
+    "initial": "C",
+    "word": "出尔反尔",
+    "pinyin": "chū ěr fǎn ěr",
+    "explanation": "比喻言行前后自相矛盾，反复无常。",
+    "source": "《孟子》",
+    "story": "《孟子》说“出乎尔者，反乎尔者也”，你怎样对人，人也怎样回报你。",
+    "example": "做人要守信，不可出尔反尔。",
+    "synonym": [
+      "反复无常"
+    ],
+    "antonym": [
+      "言而有信"
+    ],
+    "tags": [
+      "劝诫"
+    ],
+    "level": "premium",
+    "stage": "高中"
+  },
+  {
+    "id": "idiom-0348",
+    "initial": "D",
+    "word": "登堂入室",
+    "pinyin": "dēng táng rù shì",
+    "explanation": "比喻学问或技能由浅入深，达到更高的水平。",
+    "source": "《论语》",
+    "story": "孔子评子路“升堂矣，未入于室也”，后以登堂入室喻造诣精深。",
+    "example": "他苦练多年，技艺已登堂入室。",
+    "synonym": [
+      "升堂入室"
+    ],
+    "antonym": [
+      "浅尝辄止"
+    ],
+    "tags": [
+      "文化",
+      "励志"
+    ],
+    "level": "premium",
+    "stage": "高中"
   }
 ]
