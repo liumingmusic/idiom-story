@@ -1,34 +1,34 @@
 /* =====================================================================
    成语故事 · 小初成语学习手册 · 样式表
-   浅色主题 v10：干净宣纸底 + 珊瑚朱红点缀 + 玉色进步态
+   浅色主题 v13：水墨青绿·宋韵 —— 冷调月白底 + 青瓷绿点缀 + 霁蓝进步态
+   刻意与「历史上的今天」（做旧米黄 + 印章朱红）区分，走清爽淡雅水墨路线
    分层：首页 / 成语手册（按主题分组）/ 收藏 / 我的学习 / 历史回看
-   设计要点：去掉杂乱纹理、纯白卡片 + 柔影、统一圆角、清晰焦点态
    ===================================================================== */
 
 :root {
-  /* 表面 */
-  --paper:    #f6f5f1;   /* 页面底：干净的暖白宣纸 */
-  --paper-2:  #eeece4;   /* 次级分区底色 */
-  --card:     #ffffff;   /* 卡片：纯白，更清爽 */
-  /* 墨色文字 */
-  --ink:      #2b2823;   /* 主文字 */
-  --ink-2:    #565049;   /* 次级文字 */
-  --ink-soft: #948c80;   /* 弱化文字 */
-  /* 主点缀：珊瑚朱红（友好、应景，比旧砖红更精致） */
-  --accent:      #e2573f;
-  --accent-2:    #c8452e;
-  --accent-soft: #fbeee9;
-  /* 正向 / 已学：玉色 */
-  --jade:      #2f9d7e;
-  --jade-soft: #e7f4ef;
-  /* 日期等点缀：琥珀金 */
-  --gold: #bd8626;
-  /* 描边 */
-  --line:   #ebe6db;
-  --line-2: #ddd5c6;
-  /* 阴影（暖调、轻柔） */
-  --shadow:    0 12px 32px rgba(70, 55, 35, .10);
-  --shadow-sm: 0 4px 14px rgba(70, 55, 35, .07);
+  /* 表面：冷调月白 / 青瓷底（非暖米黄） */
+  --paper:    #eef3f1;   /* 页面底：清透月白（偏冷） */
+  --paper-2:  #e2eae7;   /* 次级分区底色 */
+  --card:     #ffffff;   /* 卡片：纯白，衬青瓷绿更清亮 */
+  /* 墨色文字（带青调，非暖褐） */
+  --ink:      #1f2d29;   /* 主文字：深墨青 */
+  --ink-2:    #3d4f4a;   /* 次级文字 */
+  --ink-soft: #7d8d88;   /* 弱化文字 */
+  /* 主点缀：青瓷绿 / 松石绿（与每日历史的朱红做旧完全区分） */
+  --accent:      #2f8f78;
+  --accent-2:    #1d6b59;
+  --accent-soft: #e1f0ea;
+  /* 正向 / 已学：霁蓝（与绿色主色区分开） */
+  --jade:      #3a78a8;
+  --jade-soft: #e6eff6;
+  /* 日期等点缀：青灰蓝（冷调，弃用暖金） */
+  --gold: #5e7c8c;
+  /* 描边（冷灰绿） */
+  --line:   #e0e8e4;
+  --line-2: #cfdbd5;
+  /* 阴影（冷青调、轻柔） */
+  --shadow:    0 12px 32px rgba(28, 52, 46, .10);
+  --shadow-sm: 0 4px 14px rgba(28, 52, 46, .07);
   /* 圆角 */
   --radius:    18px;
   --radius-sm: 14px;
@@ -54,7 +54,7 @@ body {
   font-family: var(--sans);
   color: var(--ink);
   background-color: var(--paper);
-  background-image: linear-gradient(180deg, #f9f7f2 0%, #f2efe8 100%);
+  background-image: radial-gradient(1100px 460px at 50% -140px, rgba(47,143,120,.10), transparent 62%), linear-gradient(180deg, #f4f8f6 0%, #e6eeec 100%);
   line-height: 1.7;
   min-height: 100vh;
   padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
@@ -76,7 +76,7 @@ a { color: var(--accent-2); text-decoration: none; }
 /* ------------------------------- 顶部 ------------------------------- */
 .site-header {
   position: sticky; top: 0; z-index: 30;
-  background: rgba(246, 245, 241, .88);
+  background: rgba(243, 247, 245, .88);
   backdrop-filter: saturate(140%) blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -138,12 +138,13 @@ a { color: var(--accent-2); text-decoration: none; }
 .hero-section { margin: 20px 0 8px; }
 .hero-card {
   position: relative; background: var(--card);
+  background-image: radial-gradient(440px 240px at 100% 0%, rgba(47,143,120,.07), transparent 60%);
   border: 1px solid var(--line); border-radius: var(--radius);
   padding: 30px 32px 26px; box-shadow: var(--shadow); overflow: hidden;
 }
 .scroll-deco::before, .scroll-deco::after {
   content: ""; position: absolute; top: 0; bottom: 0; width: 6px;
-  background: linear-gradient(180deg, #f1ece0, #e7ddc8); opacity: .5;
+  background: linear-gradient(180deg, #e8f1ee, #d7e6e1); opacity: .6;
 }
 .scroll-deco::before { left: 0; border-right: 1px solid var(--line); }
 .scroll-deco::after { right: 0; border-left: 1px solid var(--line); }
@@ -191,7 +192,7 @@ a { color: var(--accent-2); text-decoration: none; }
   font-size: 13.5px; color: var(--ink-2); cursor: pointer;
   transition: border-color .15s ease, color .15s ease;
 }
-.word-tag.ant { color: var(--jade); border-color: #cfe0d8; }
+.word-tag.ant { color: var(--jade); border-color: #cfe0e8; }
 .word-tag:hover { border-color: var(--accent); color: var(--accent); }
 
 .hero-actions { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 10px; }
@@ -238,7 +239,7 @@ a { color: var(--accent-2); text-decoration: none; }
 /* ============================== 成语手册 ============================== */
 .hb-toolbar {
   position: sticky; top: 0; z-index: 10;
-  background: rgba(246, 245, 241, .92);
+  background: rgba(243, 247, 245, .92);
   backdrop-filter: blur(8px); padding: 14px 0 10px; margin-top: 8px;
 }
 
@@ -300,7 +301,7 @@ a { color: var(--accent-2); text-decoration: none; }
   display: flex; align-items: center; gap: 10px;
   font-family: var(--serif); font-weight: 700; font-size: 18px; letter-spacing: 2px;
   color: var(--ink); margin: 0 0 12px; padding: 8px 2px;
-  background: linear-gradient(180deg, rgba(246, 245, 241, .96), rgba(246, 245, 241, .8));
+  background: linear-gradient(180deg, rgba(243, 247, 245, .96), rgba(243, 247, 245, .8));
   border-bottom: 2px solid var(--line-2);
 }
 .hb-group-title .g-count { font-family: var(--sans); font-size: 12px; font-weight: 400; color: var(--ink-soft); letter-spacing: 0; }
@@ -335,9 +336,9 @@ a { color: var(--accent-2); text-decoration: none; }
 .load-more-btn { appearance: none; cursor: pointer; font: inherit; font-size: 14px; font-weight: 600;
   color: var(--accent); background: var(--accent-soft); border: 1.5px solid var(--accent);
   border-radius: 999px; padding: 11px 26px; transition: background .18s ease, transform .12s ease, box-shadow .18s ease; }
-.load-more-btn:hover { background: var(--accent); color: #fff; box-shadow: 0 6px 16px rgba(226,87,63,.28); }
+.load-more-btn:hover { background: var(--accent); color: #fff; box-shadow: 0 6px 16px rgba(47,143,120,.28); }
 .load-more-btn:active { transform: translateY(1px) scale(.99); }
-.load-more-btn:focus-visible { outline: none; box-shadow: 0 0 0 4px rgba(226,87,63,.22); }
+.load-more-btn:focus-visible { outline: none; box-shadow: 0 0 0 4px rgba(47,143,120,.22); }
 
 /* ============================== 我的学习 ============================== */
 .progress-wrap { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm);
@@ -345,7 +346,7 @@ a { color: var(--accent-2); text-decoration: none; }
 .progress-label { font-size: 13px; color: var(--ink-soft); margin-bottom: 8px; }
 .progress-label b { color: var(--jade); font-size: 16px; }
 .progress-bar { height: 12px; border-radius: 999px; background: var(--line); overflow: hidden; }
-.progress-bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--jade), #57b89c); border-radius: 999px; transition: width .3s ease; }
+.progress-bar > i { display: block; height: 100%; background: linear-gradient(90deg, var(--jade), #6aa7cf); border-radius: 999px; transition: width .3s ease; }
 .learn-block { margin: 18px 0; }
 .learn-block h3 { font-family: var(--serif); font-size: 17px; margin: 0 0 10px; letter-spacing: 1px; }
 .learn-block h3 .lb-count { font-family: var(--sans); font-size: 12px; color: var(--ink-soft); margin-left: 6px; }
@@ -366,7 +367,7 @@ a { color: var(--accent-2); text-decoration: none; }
 .modal { position: fixed; inset: 0; z-index: 50; display: none; padding: 18px; }
 .modal.is-open { display: grid; place-items: center; }
 .modal[hidden] { display: none; }
-.modal-backdrop { position: absolute; inset: 0; background: rgba(43, 38, 34, .45); backdrop-filter: blur(2px); }
+.modal-backdrop { position: absolute; inset: 0; background: rgba(28, 42, 38, .45); backdrop-filter: blur(2px); }
 .modal-body {
   position: relative; z-index: 1; width: min(680px, 100%); max-height: 86vh; overflow: auto;
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -389,7 +390,7 @@ a { color: var(--accent-2); text-decoration: none; }
 @keyframes toastIn { from { opacity: 0; transform: translate(-50%, 8px); } to { opacity: 1; transform: translate(-50%, 0); } }
 .loading { color: var(--ink-soft); padding: 40px 0; text-align: center; }
 
-.site-footer { border-top: 1px solid var(--line); background: rgba(246, 245, 241, .6); padding: 20px 0 24px; margin-top: 10px; }
+.site-footer { border-top: 1px solid var(--line); background: rgba(243, 247, 245, .6); padding: 20px 0 24px; margin-top: 10px; }
 .site-footer p { margin: 4px 0; font-size: 13px; color: var(--ink-soft); text-align: center; }
 .site-footer .muted { font-size: 12px; opacity: .85; }
 
@@ -406,7 +407,7 @@ a { color: var(--accent-2); text-decoration: none; }
     height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
     padding-bottom: env(safe-area-inset-bottom);
     background: rgba(255, 255, 255, .96); backdrop-filter: blur(10px);
-    border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(70, 55, 35, .08);
+    border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(28, 52, 46, .08);
   }
   .tabitem { flex: 1; min-width: 0; border: 0; background: transparent; cursor: pointer; padding: 0;
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
