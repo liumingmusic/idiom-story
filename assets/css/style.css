@@ -37,7 +37,6 @@
   --sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
   --maxw: 1120px;
   --nav-h: 52px;
-  --tabbar-h: 60px;
 }
 
 * { box-sizing: border-box; }
@@ -57,7 +56,7 @@ body {
   background-image: radial-gradient(1100px 460px at 50% -140px, rgba(47,143,120,.10), transparent 62%), linear-gradient(180deg, #f4f8f6 0%, #e6eeec 100%);
   line-height: 1.7;
   min-height: 100vh;
-  padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
+  padding-bottom: 0;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -123,8 +122,7 @@ a { color: var(--accent-2); text-decoration: none; }
 .navlink.is-active { color: var(--accent-2); font-weight: 700; }
 .navlink.is-active::after { transform: scaleX(1); }
 
-/* 移动端底部 Tab 栏（默认隐藏，手机端显示） */
-.tabbar { display: none; }
+/* 底部 Tab 栏已移除，导航统一走顶部 #topnav（桌面与手机端均显示） */
 
 /* ============================== 视图通用 ============================== */
 .view { animation: fade .2s ease; }
@@ -383,7 +381,7 @@ a { color: var(--accent-2); text-decoration: none; }
 
 /* ============================== 提示 / 页脚 ============================== */
 .toast {
-  position: fixed; left: 50%; bottom: calc(var(--tabbar-h) + 24px); transform: translateX(-50%);
+  position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%);
   background: var(--ink); color: var(--paper); padding: 10px 20px; border-radius: 999px;
   font-size: 14px; z-index: 60; box-shadow: var(--shadow); animation: toastIn .25s ease;
 }
@@ -398,24 +396,12 @@ a { color: var(--accent-2); text-decoration: none; }
 @media (max-width: 720px) {
   .wrap { padding: 0 14px; }
   .site-sub { display: none; }
-  .topnav { display: none; }            /* 手机端用底部 Tab 栏 */
+  .topnav { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 2px; padding-bottom: 6px; -webkit-overflow-scrolling: touch; }
+  .topnav::-webkit-scrollbar { display: none; }
   .header-inner { padding-top: 8px; padding-bottom: 6px; }
   .today-meta { width: 100%; justify-content: space-between; }
 
-  .tabbar {
-    display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
-    height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
-    padding-bottom: env(safe-area-inset-bottom);
-    background: rgba(255, 255, 255, .96); backdrop-filter: blur(10px);
-    border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(28, 52, 46, .08);
-  }
-  .tabitem { flex: 1; min-width: 0; border: 0; background: transparent; cursor: pointer; padding: 0;
-    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
-    color: var(--ink-soft); font-family: var(--sans); -webkit-tap-highlight-color: transparent; }
-  .tabitem .ti-ico { font-size: 18px; line-height: 1; width: 24px; text-align: center; }
-  .tabitem .ti-lab { font-size: 10px; white-space: nowrap; }
-  .tabitem.is-active { color: var(--accent-2); }
-  .tabitem.is-active .ti-ico { transform: translateY(-1px); }
+  /* 底部 Tab 栏已移除：桌面与手机端导航统一由顶部 #topnav 承担 */
 
   .hero-section { margin: 12px 0 4px; }
   .hero-card { padding: 22px 18px 20px; border-radius: 16px; }
