@@ -312,7 +312,7 @@
     return list;
   }
   // -------------------------- 手册：按条数滚动分批加载 --------------------------
-  const ITEM_BATCH = 10;           // 每批加载的成语条数（默认先加载 10 条，滚动再加 10 条）
+  const ITEM_BATCH = 8;            // 每批加载的成语条数（默认先加载 8 条，滚动再加 8 条）
   function computeGroups() {
     const groups = [];
     for (const c of state.cats) {
@@ -335,7 +335,7 @@
     state._groups = computeGroups();
     state._gi = 0;            // 下一个待渲染的主题组索引
     state._shown = 0;         // 已渲染的成语条数
-    state._show = ITEM_BATCH; // 当前要展示到的条数预算（默认 10）
+    state._show = ITEM_BATCH; // 当前要展示到的条数预算（默认 8）
     if (!state._groups.length) {
       root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个主题或关键词试试～</div>`;
       return;
@@ -373,7 +373,7 @@
       wrap.querySelector("#hbLoadMore").addEventListener("click", () => { state._show += ITEM_BATCH; appendGroups(); });
     }
   }
-  // 滚动到底自动加载下一批（每批 10 条）——只有真正滚动才触发，不会再一次性全出
+  // 滚动到底自动加载下一批（每批 8 条）——只有真正滚动才触发，不会再一次性全出
   let _hbLoading = false;
   function onHandbookScroll() {
     if (state.view !== "handbook") return;
