@@ -311,8 +311,8 @@
     if (q) list = list.filter(x => x.word.includes(q) || (x.pinyin || "").toLowerCase().includes(q) || (x.explanation || "").includes(q) || (x.story || "").includes(q));
     return list;
   }
-  // -------------------------- 手册：分页（加载更多）加载 --------------------------
-  const GROUP_BATCH = 5;            // 每页加载的「主题组」数量
+  // -------------------------- 手册：按条数滚动分批加载 --------------------------
+  const ITEM_BATCH = 10;           // 每批加载的成语条数（默认先加载 10 条，滚动再加 10 条）
   function computeGroups() {
     const groups = [];
     for (const c of state.cats) {
@@ -328,10 +328,14 @@
       <h3 class="hb-group-title"><span class="g-emoji">${g.emoji}</span>${esc(g.name)}<span class="g-count">${g.items.length} 个</span></h3>
       <div class="results-grid">${g.items.map(x => cardHTML(x)).join("")}</div></section>`;
   }
+  function totalItems() { return (state._groups || []).reduce((n, g) => n + g.items.length, 0); }
+  function hasMoreGroups() { return state._gi < (state._groups || []).length; }
   function renderGroups() {
     const root = $("#hbList"); if (!root) return;
     state._groups = computeGroups();
-    state._gi = 0;
+    state._gi = 0;            // 下一个待渲染的主题组索引
+    state._shown = 0;         // 已渲染的成语条数
+    state._show = ITEM_BATCH; // 当前要展示到的条数预算（默认 10）
     if (!state._groups.length) {
       root.innerHTML = `<div class="empty-hint"><span class="eh-ico">🔍</span>没有匹配的成语，换个主题或关键词试试～</div>`;
       return;
@@ -343,26 +347,47 @@
     const root = $("#hbList"); if (!root) return;
     const groups = state._groups || [];
     if (state._gi >= groups.length) return;
-    const end = Math.min(state._gi + GROUP_BATCH, groups.length);
+    // 先移除上一批的页脚（加载更多 / 到底提示），再追加本批内容
+    const old = root.querySelector(".load-more-wrap, .load-end");
+    if (old) old.remove();
     let html = "";
-    for (; state._gi < end; state._gi++) html += groupHTML(groups[state._gi]);
-    // 移除上一批的「加载更多」按钮（若有），再追加本批内容
-    const oldWrap = root.querySelector(".load-more-wrap");
-    if (oldWrap) oldWrap.remove();
+    // 整组渲染，但受「条数预算」控制：累计达到 _show 才停（至少渲染一个整组）
+    while (state._gi < groups.length && state._shown < state._show) {
+      const g = groups[state._gi];
+      html += groupHTML(g);
+      state._shown += g.items.length;
+      state._gi++;
+    }
     root.insertAdjacentHTML("beforeend", html);
-    const total = groups.reduce((n, g) => n + g.items.length, 0);
-    if (state._gi >= groups.length) {
+    if (!hasMoreGroups()) {
       const note = document.createElement("div");
       note.className = "load-end";
-      note.textContent = "— 已经到底啦，共 " + total + " 条 —";
+      note.textContent = "— 已经到底啦，共 " + totalItems() + " 条 —";
       root.appendChild(note);
     } else {
-      const remain = groups.length - state._gi;
+      const remain = totalItems() - state._shown;
       const wrap = document.createElement("div");
       wrap.className = "load-more-wrap";
-      wrap.innerHTML = `<button class="load-more-btn" id="hbLoadMore" type="button">加载更多（还剩 ${remain} 组主题）</button>`;
+      wrap.innerHTML = `<button class="load-more-btn" id="hbLoadMore" type="button">加载更多（还有约 ${remain} 条）</button>`;
       root.appendChild(wrap);
-      wrap.querySelector("#hbLoadMore").addEventListener("click", appendGroups);
+      wrap.querySelector("#hbLoadMore").addEventListener("click", () => { state._show += ITEM_BATCH; appendGroups(); });
+    }
+  }
+  // 滚动到底自动加载下一批（每批 10 条）——只有真正滚动才触发，不会再一次性全出
+  let _hbLoading = false;
+  function onHandbookScroll() {
+    if (state.view !== "handbook") return;
+    if ($("#detailModal").classList.contains("is-open")) return;
+    if (_hbLoading || !hasMoreGroups()) return;
+    const sy = window.scrollY || document.documentElement.scrollTop || 0;
+    if (sy <= 40) return;                 // 必须真的往下滚一点，避免进入页面/弹层瞬间误触发
+    const wh = window.innerHeight;
+    const dh = document.documentElement.scrollHeight;
+    if (sy + wh >= dh - 360) {            // 接近底部
+      _hbLoading = true;
+      state._show += ITEM_BATCH;
+      appendGroups();
+      requestAnimationFrame(() => { _hbLoading = false; });
     }
   }
 
@@ -490,6 +515,8 @@
     // 弹层关闭
     $("#detailModal").addEventListener("click", (e) => { if (e.target.hasAttribute("data-close")) closeDetail(); });
     document.addEventListener("keydown", (e) => { if (e.key === "Escape" && $("#detailModal").classList.contains("is-open")) closeDetail(); });
+    // 手册：滚动到底自动加载下一批（每批 10 条）
+    window.addEventListener("scroll", onHandbookScroll, { passive: true });
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
