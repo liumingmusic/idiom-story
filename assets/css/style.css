@@ -236,7 +236,7 @@ a { color: var(--accent-2); text-decoration: none; }
 
 /* ============================== 成语手册 ============================== */
 .hb-toolbar {
-  position: sticky; top: 0; z-index: 10;
+  position: sticky; top: 132px; z-index: 10;
   background: rgba(243, 247, 245, .92);
   backdrop-filter: blur(8px); padding: 14px 0 10px; margin-top: 8px;
 }
@@ -293,9 +293,9 @@ a { color: var(--accent-2); text-decoration: none; }
 .chip .cnt { opacity: .7; font-size: 11px; }
 
 .hb-list { margin: 6px 0 30px; }
-.hb-group { margin: 18px 0 4px; scroll-margin-top: 150px; }
+.hb-group { margin: 18px 0 4px; scroll-margin-top: 360px; }
 .hb-group-title {
-  position: sticky; top: 96px; z-index: 5;
+  position: static; z-index: 5;
   display: flex; align-items: center; gap: 10px;
   font-family: var(--serif); font-weight: 700; font-size: 18px; letter-spacing: 2px;
   color: var(--ink); margin: 0 0 12px; padding: 8px 2px;
@@ -400,10 +400,13 @@ a { color: var(--accent-2); text-decoration: none; }
 @media (max-width: 720px) {
   .wrap { padding: 0 14px; }
   .site-sub { display: none; }
+
+  /* 顶部导航：横向滑动；按钮不被压缩、文字不换行 */
   .topnav { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 2px; padding-bottom: 6px; -webkit-overflow-scrolling: touch; }
   .topnav::-webkit-scrollbar { display: none; }
+  .topnav .navlink { flex: 0 0 auto; white-space: nowrap; }
   .header-inner { padding-top: 8px; padding-bottom: 6px; }
-  .today-meta { width: 100%; justify-content: space-between; }
+  .today-meta { flex: none; }
 
   /* 底部 Tab 栏已移除：桌面与手机端导航统一由顶部 #topnav 承担 */
 
@@ -419,10 +422,11 @@ a { color: var(--accent-2); text-decoration: none; }
   .stats { grid-template-columns: repeat(3, 1fr); gap: 8px; }
   .stat { padding: 12px 8px; }
   .stat .big { font-size: 22px; }
-  .quick { grid-template-columns: 1fr; }
-  .results-grid { grid-template-columns: 1fr; }
+
+  /* 手册：工具条吸附在吸顶导航之下；分组标题改为静态避免与工具条重叠 */
   .filter-label { width: 36px; font-size: 12px; }
-  .hb-group-title { top: 86px; }
+  .chips { flex: 1 1 auto; min-width: 0; }
+  .results-grid { grid-template-columns: 1fr; }
   .modal-body { padding: 22px 16px 20px; }
 }
 
